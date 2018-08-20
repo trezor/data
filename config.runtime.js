@@ -1,4 +1,4 @@
-module.exports = {git 
+module.exports = { 
     backends: {
         'Bitcoin (BTC)': [{
             name: 'TREZOR Wallet - Bitcoin',
