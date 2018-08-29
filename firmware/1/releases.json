@@ -1,6 +1,14 @@
 [
 	{
 		"required": false,
+		"version": [1, 6, 3],
+		"min_bridge_version": [1, 1, 5],
+		"url": "data/firmware/1/trezor-1.6.3.bin.hex",
+		"fingerprint": "e8dbb4b7fe8384afd4c99790277c2f2f366a1a0f3957aa3545c75371a99a8fcc",
+		"changelog": "* Stable release, optional update\n* Implement RSKIP-60 Ethereum checksum encoding\n* Add support for new Ethereum networks (ESN, AKA, ETHO, MUSI, PIRL, ATH, GO)\n* Add support for new 80 Ethereum tokens\n* Improve MPU configuration"
+	},
+	{
+		"required": false,
 		"version": [1, 6, 2],
 		"min_bridge_version": [1, 1, 5],
 		"url": "data/firmware/1/trezor-1.6.2.bin.hex",
