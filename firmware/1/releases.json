@@ -5,7 +5,8 @@
 		"min_bridge_version": [1, 1, 5],
 		"url": "data/firmware/1/trezor-1.6.3.bin.hex",
 		"fingerprint": "e8dbb4b7fe8384afd4c99790277c2f2f366a1a0f3957aa3545c75371a99a8fcc",
-		"changelog": "* Stable release, optional update\n* Implement RSKIP-60 Ethereum checksum encoding\n* Add support for new Ethereum networks (ESN, AKA, ETHO, MUSI, PIRL, ATH, GO)\n* Add support for new 80 Ethereum tokens\n* Improve MPU configuration"
+		"changelog": "* Stable release, optional update\n* Implement RSKIP-60 Ethereum checksum encoding\n* Add support for new Ethereum networks (ESN, AKA, ETHO, MUSI, PIRL, ATH, GO)\n* Add support for new 80 Ethereum tokens\n* Improve MPU configuration",
+		"notes": "https://blog.trezor.io/trezor-one-firmware-update-1-6-3-73894c0506d"
 	},
 	{
 		"required": false,
@@ -31,7 +32,8 @@
 		"min_bridge_version": [1, 1, 5],
 		"url": "data/firmware/1/trezor-1.6.0.bin.hex",
 		"fingerprint": "e40f6ce12724c2d24234a7752953b88fd9ec28b3ec72c0dbfa280095a67a06ca",
-		"changelog": "* Stable release, optional update\n* Native SegWit (Bech32) address support\n* Show recognized BIP44/BIP49 paths in GetAddress dialog\n* NEM support\n* Expanse and UBIQ chains support\n* Bitcoin Gold, DigiByte, Monacoin support\n* Ed25519 collective signatures (CoSi) support"
+		"changelog": "* Stable release, optional update\n* Native SegWit (Bech32) address support\n* Show recognized BIP44/BIP49 paths in GetAddress dialog\n* NEM support\n* Expanse and UBIQ chains support\n* Bitcoin Gold, DigiByte, Monacoin support\n* Ed25519 collective signatures (CoSi) support",
+		"notes": "https://blog.trezor.io/expanded-cryptos-cryptocurrency-support-firmware-1-6-0-3825b5853470"
 	},
 	{
 		"required": true,
@@ -39,7 +41,8 @@
 		"min_bridge_version": [1, 1, 5],
 		"url": "data/firmware/1/trezor-1.5.2.bin.hex",
 		"fingerprint": "99f71379dec893fbe109832a1150f338660be686fe6b4903ff10ff751ba4e448",
-		"changelog": "* Stable release, required update\n* clean memory on start\n* fix storage import from older versions"
+		"changelog": "* Stable release, required update\n* clean memory on start\n* fix storage import from older versions",
+		"notes": "https://blog.trezor.io/trezor-firmware-security-update-1-5-2-5ef1b6f13fed"
 	},
 	{
 		"required": false,
@@ -89,7 +92,7 @@
 		"url": "data/firmware/1/trezor-1.3.6.bin.hex",
 		"fingerprint": "03b559a758961b2bfd4443e6c36c10025268cf033ecd376fdd7a79ff658bf511",
 		"changelog": "* Stable release, optional update\n* Enable advanced transactions such as ones with REPLACE-BY-FEE and CHECKLOCKTIMEVERIFY\n* Fix message signing for altcoins\n* Message verification now shows address\n* Enable GPG signing support\n* Enable Ed25519 curve (for SSH and GPG)\n* Use separate deterministic hierarchy for NIST256P1 and Ed25519 curves\n* Users using SSH already need to regenerate their keys using the new firmware!!!",
-		"notes": "https://medium.com/@satoshilabs/20a7df6e692"
+		"notes": "https://blog.trezor.io/trezor-firmware-1-3-6-20a7df6e692"
 	},
 	{
 		"required": false,
@@ -98,7 +101,7 @@
 		"url": "data/firmware/1/trezor-1.3.5.bin.hex",
 		"fingerprint": "7d5d2c7defb93081a7fb7a2d1e57677fbac2a3e3e50f22fa3ff83ec4ddaafd9d",
 		"changelog": "* Stable release, optional update\n* Double size font for recovery words during the device setup\n* Optimizations for simultaneous access when more applications try communicate with the device",
-		"notes": "https://medium.com/@satoshilabs/cc4c25197855"
+		"notes": "https://blog.trezor.io/trezor-firmware-1-3-5-allows-for-multisession-operation-cc4c25197855"
 	},
 	{
 		"required": false,
@@ -107,7 +110,7 @@
 		"url": "data/firmware/1/trezor-1.3.4.bin.hex",
 		"fingerprint": "49e044eec84a9c210a09319d27a3ab8ba889ddeaa4d68f99d163f65267fce134",
 		"changelog": "* Stable release, optional update\n* Screensaver active on ClearSession message\n* Support for NIST P-256 curve\n* Updated SignIdentity to v2 format\n* Show seconds counter during PIN lockdown\n* Updated maxfee per kb for coins",
-		"notes": "https://medium.com/@satoshilabs/trezor-firmware-1-3-4-enables-ssh-login-86a622d7e609"
+		"notes": "https://blog.trezor.io/trezor-firmware-1-3-4-enables-ssh-login-86a622d7e609"
 	},
 	{
 		"required": true,
@@ -116,7 +119,7 @@
 		"url": "data/firmware/1/trezor-1.3.3.bin.hex",
 		"fingerprint": "7fcee4c0459c22109f3fcfe0040148e9be6d30947f7fffb76c66cc500681257c",
 		"changelog": "* Stable release, required update\n* Ask for PIN on GetAddress and GetPublicKey\n* Signing speed improved",
-		"notes": "http://satoshilabs.com/news/2015-04-07-trezor-firmware-1-3-3-connect-api/"
+		"notes": "http://satoshilabs.com/old/news/2015-04-07-trezor-firmware-1-3-3-connect-api/"
 	},
 	{
 		"required": false,
@@ -134,7 +137,7 @@
 		"url": "data/firmware/1/trezor-1.3.1.bin.hex",
 		"fingerprint": "8030e257fc4c75a8f4a0325f8ea37428dd8fc68a5f9ec5f8e2d1a0de328860cc",
 		"changelog": "* Stable release, optional update\n* Optimized signing speed\n* Enabled OP_RETURN\n* Added option to change home screen\n* Moved fee calculation before any signing\n* Made PIN delay increase immune against hardware hacking",
-		"notes": "http://satoshilabs.com/news/2015-02-18-trezor-firmware-1-3-1-smart-property-notary-service-customized-home-screen/"
+		"notes": "http://satoshilabs.com/old/news/2015-02-18-trezor-firmware-1-3-1-smart-property-notary-service-customized-home-screen/"
 	},
 	{
 		"required": false,
@@ -143,7 +146,7 @@
 		"url": "data/firmware/1/trezor-1.3.0.bin.hex",
 		"fingerprint": "1d417e1e99a4880f7e03b991cf318eebe7b6cb453d2f55b8112adc5fd1a8293c",
 		"changelog": "* Stable release, optional update\n* Added multisig support\n* Added visual validation of receiving address\n* Added ECIES encryption capabilities",
-		"notes": "http://satoshilabs.com/news/2015-01-13-trezor-firmware-1-3-0-update-multisig/"
+		"notes": "http://satoshilabs.com/old/news/2015-01-13-trezor-firmware-1-3-0-update-multisig/"
 	},
 	{
 		"required": true,
@@ -152,7 +155,7 @@
 		"url": "data/firmware/1/trezor-1.2.1.bin.hex",
 		"fingerprint": "0f8685ee46632162b549eb22b99a1e4e013d6796ae536ea6acb877a491f564f6",
 		"changelog": "* Stable release, mandatory update\n* Added stack overflow protection\n* Added compatibility with TREZOR Bridge",
-		"notes": "http://satoshilabs.com/news/2014-08-01-trezor-firmware-1-2-1-released/"
+		"notes": "http://satoshilabs.com/old/news/2014-08-01-trezor-firmware-1-2-1-released/"
 	},
 	{
 		"required": false,
