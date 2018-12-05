@@ -1,6 +1,17 @@
 [
 	{
 		"required": false,
+		"version": [2, 0, 10],
+		"min_bridge_version": [2, 0, 7],
+		"min_firmware_version": [2, 0, 5],
+		"min_bootloader_version": [2, 0, 0],
+		"url": "data/firmware/2/trezor-2.0.10.bin.hex",
+		"channel": "beta",
+		"fingerprint": "fcaa6ee206c2c121eb2d45d065d66f0879f14be45c244d4acf908be1de22275e",
+		"changelog": "* stable release, optional update\n* Fix Monero payment ID computation\n* Fix issue with touch screen and flickering\n* Add support for OMNI layer: OMNI/MAID/USDT\n* Add support for new coins: BTX, CPC, GAME, RVN\n* Add support for new Ethereum tokens"
+	},
+	{
+		"required": false,
 		"version": [2, 0, 9],
 		"bootloader_version": [2, 0, 0],
 		"min_bridge_version": [2, 0, 7],
