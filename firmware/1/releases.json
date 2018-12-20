@@ -1,6 +1,17 @@
 [
 	{
 		"required": false,
+		"version": [1, 7, 3],
+		"bootloader_version": [1, 6, 0],
+		"min_bridge_version": [2, 0, 25],
+		"min_firmware_version": [1, 6, 2],
+		"min_bootloader_version": [1, 5, 0],
+		"url": "data/firmware/1/trezor-1.7.3.bin.hex",
+		"fingerprint": "10acc6aa4f24aff36627473b98c23dc4f6d0220d33bc1e09cb572f02410ffdaf",
+		"changelog": "* Stable release, optional update\n* Fix USB issue on some Windows 10 installations"
+	},
+	{
+		"required": false,
 		"version": [1, 7, 2],
 		"bootloader_version": [1, 6, 0],
 		"min_bridge_version": [2, 0, 25],
