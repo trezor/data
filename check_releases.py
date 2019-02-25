@@ -87,21 +87,21 @@ def check_firmware(model):
         elif model == "2":
             start = b"TRZV"
 
-        if not data.startswith(binascii.hexlify(start)):
+        if not data.startswith(start):
             print("WRONG HEADER")
             ok = False
             continue
 
         if model == "1":
-            codelen = struct.unpack("<I", binascii.unhexlify(data[8:16]))
+            codelen = struct.unpack("<I", data[4:8])
             codelen = codelen[0]
 
-            if codelen + 256 != len(data) // 2:
-                print("INVALID SIZE (is %d bytes, should be %d bytes)" % (codelen + 256, len(data) // 2))
+            if codelen + 256 != len(data):
+                print("INVALID SIZE (is %d bytes, should be %d bytes)" % (codelen + 256, len(data)))
                 ok = False
                 continue
 
-            elif len(data) / 2 > 1024 * 1024 - 32 * 1024:  # Firmware - header - signatures
+            elif len(data) > 1024 * 1024 - 32 * 1024:  # Firmware - header - signatures
                 print("TOO BIG")
                 ok = False
                 continue
@@ -110,12 +110,12 @@ def check_firmware(model):
                 print("OK")
 
         if model == "2":
-            vendorlen = struct.unpack("<I", binascii.unhexlify(data[8:16]))[0]
-            headerlen = struct.unpack("<I", binascii.unhexlify(data[8 + vendorlen * 2:16 + vendorlen * 2]))[0]
-            codelen = struct.unpack("<I", binascii.unhexlify(data[24 + vendorlen * 2:32 + vendorlen * 2]))[0]
+            vendorlen = struct.unpack("<I", data[4:8])[0]
+            headerlen = struct.unpack("<I", data[4 + vendorlen:8 + vendorlen])[0]
+            codelen = struct.unpack("<I", data[12 + vendorlen:16 + vendorlen])[0]
 
-            if codelen + vendorlen + headerlen != len(data) // 2:
-                print("INVALID SIZE (is %d bytes, should be %d bytes)" % (codelen + vendorlen + headerlen, len(data) // 2))
+            if codelen + vendorlen + headerlen != len(data):
+                print("INVALID SIZE (is %d bytes, should be %d bytes)" % (codelen + vendorlen + headerlen, len(data)))
                 ok = False
                 continue
 
