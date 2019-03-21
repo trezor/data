@@ -6,7 +6,8 @@
 		"min_firmware_version": [2, 0, 5],
 		"min_bootloader_version": [2, 0, 0],
 		"url": "data/firmware/2/trezor-2.1.0.bin",
-		"rollout": 0.2,
+		"rollout": 0.5,
+		"tags": ["security"],
 		"fingerprint": "bb5b0308807b45d41d1e2ab66a468152997ad69a01099789d8a35e464cde999f",
 		"changelog": "* stable release, optional update\n* Security improvements\n* Upgraded to new storage format\n* Ripple, Stellar, Cardano and NEM fixes\n* New coins: ATS, AXE, FLO, GIN, KMD, NIX,\n  PIVX, REOSC, XPM, XSN, ZCL\n* New ETH tokens"
 	},
