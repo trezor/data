@@ -1,7 +1,7 @@
 [
 	{
 		"required": false,
-		"version": [2, 1, 2],
+		"version": [2, 1, 3],
 		"min_bridge_version": [2, 0, 7],
 		"min_firmware_version": [2, 0, 5],
 		"min_bootloader_version": [2, 0, 0],
