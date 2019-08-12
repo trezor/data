@@ -1,16 +1,6 @@
 [
 	{
 		"required": false,
-		"version": [2, 1, 3],
-		"min_bridge_version": [2, 0, 7],
-		"min_firmware_version": [2, 0, 5],
-		"min_bootloader_version": [2, 0, 0],
-		"url": "data/firmware/2/trezor-2.1.3.bin",
-		"fingerprint": "89c7a47421b93051dcebe6182b2c585ac69bbc50a89e520c29cc6efbed54642f",
-		"changelog": "* Shamir Backup with Recovery persistence\n* Touchscreen freeze fix\n* Fix display of non-divisible OMNI amounts"
-	},
-	{
-		"required": false,
 		"version": [2, 1, 1],
 		"min_bridge_version": [2, 0, 7],
 		"min_firmware_version": [2, 0, 5],
