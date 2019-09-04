@@ -1,6 +1,17 @@
 [
 	{
 		"required": false,
+		"version": [1, 8, 3],
+		"bootloader_version": [1, 8, 0],
+		"min_bridge_version": [2, 0, 25],
+		"min_firmware_version": [1, 6, 2],
+		"min_bootloader_version": [1, 5, 0],
+		"url": "data/firmware/1/trezor-1.8.3.bin",
+		"fingerprint": "496aecfab867504b2283a9f057a0b2fd9d17970a22c81f6ad74232e7b914ce68",
+		"changelog": "* Introduce Bitcoin-only firmware"
+	},
+	{
+		"required": false,
 		"version": [1, 8, 2],
 		"bootloader_version": [1, 8, 0],
 		"min_bridge_version": [2, 0, 25],
