@@ -43,7 +43,7 @@ def check_bridge():
     return ok
 
 
-def check_firmware(model):
+def check_firmware(model, bitcoin_only=False):
 
     if model not in ["1", "2"]:
         raise ValueError("Unknown model: %s" % model)
@@ -65,7 +65,7 @@ def check_firmware(model):
         if r["version"] != latest:
             continue
 
-        firmware = r["url"]
+        firmware = r["url_bitcoinonly"] if bitcoin_only else r["url"]
         version = ".".join([str(x) for x in r["version"]])
 
         if version not in firmware:
@@ -132,7 +132,9 @@ if __name__ == "__main__":
 
     ok &= check_bridge()
     ok &= check_firmware("1")
+    ok &= check_firmware("1", bitcoin_only=True)
     ok &= check_firmware("2")
+    ok &= check_firmware("2", bitcoin_only=True)
 
     if ok:
         print("EVERYTHING OK")
