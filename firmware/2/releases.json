@@ -1,6 +1,19 @@
 [
 	{
 		"required": false,
+		"version": [2, 1, 6],
+		"min_bridge_version": [2, 0, 7],
+		"min_firmware_version": [2, 1, 0],
+		"min_bootloader_version": [2, 0, 3],
+		"url": "data/firmware/2/trezor-2.1.6.bin",
+		"url_bitcoinonly": "data/firmware/2/trezor-2.1.6-bitcoinonly.bin",
+		"fingerprint": "e2032ad84108a85d4014d477b955b9181a1a56e6f222ef21bb7d47b503a02f0b",
+		"fingerprint_bitcoinonly": "4e7f0f95d71631159b9e873f36a812c93a10eca1fad5f38c78ae7fbe4c1f6ed4",
+		"changelog": "* Super Shamir (with Groups)\n* FIDO2 support with credential management",
+		"channel": "beta"
+	},
+	{
+		"required": false,
 		"version": [2, 1, 5],
 		"min_bridge_version": [2, 0, 7],
 		"min_firmware_version": [2, 1, 0],
