@@ -4,7 +4,7 @@
 # Install awscli (pip install awscli)
 # Configure access credentials (aws configure), region is "eu-central-1"
 
-DIRS="bootloader bridge firmware registry udev"
+DIRS="bootloader bridge firmware registry udev suite"
 BUCKET=data.trezor.io
 DISTRIBUTION_ID="E1ERY5K2OTKKI1"
 
