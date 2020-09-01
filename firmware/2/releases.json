@@ -1,6 +1,18 @@
 [
 	{
 		"required": false,
+		"version": [2, 3, 3],
+		"min_bridge_version": [2, 0, 7],
+		"min_firmware_version": [2, 0, 8],
+		"min_bootloader_version": [2, 0, 0],
+		"url": "data/firmware/2/trezor-2.3.3.bin",
+		"url_bitcoinonly": "data/firmware/2/trezor-2.3.3-bitcoinonly.bin",
+		"fingerprint": "46326222f8afcb82e1cd07867bc3bf8836f4e9d0f367e23b58d1e9bc32cd032e",
+		"fingerprint_bitcoinonly": "dda77cd7893a5f413f8fc4b2f44d1d43ed4b26e8ced5e6e578cc6b302c1a2310",
+		"changelog": "TBD"
+	},
+	{
+		"required": false,
 		"version": [2, 3, 2],
 		"min_bridge_version": [2, 0, 7],
 		"min_firmware_version": [2, 0, 8],
