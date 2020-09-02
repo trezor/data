@@ -9,7 +9,7 @@
 		"url_bitcoinonly": "data/firmware/2/trezor-2.3.3-bitcoinonly.bin",
 		"fingerprint": "46326222f8afcb82e1cd07867bc3bf8836f4e9d0f367e23b58d1e9bc32cd032e",
 		"fingerprint_bitcoinonly": "dda77cd7893a5f413f8fc4b2f44d1d43ed4b26e8ced5e6e578cc6b302c1a2310",
-		"changelog": "TBD"
+		"changelog": "* Advances the Passphrase feature by showing the entered passphrase on the Trezor screen before opening the wallet.\n* Adds support for Verge (XVG).\n* Drops support for Metaverse (ETP), GINcoin (GIN), Pesetacoin (PTC), and Zel (ZEL).\n* Introduces a hard limit on transaction fees to prevent accidentally paying extra hefty fees (the limit can be manually disabled).\n* Resolves the problems with generating the Crown addresses.\n* Re-enables spending altcoins from Bitcoin paths (fixing some compatibility issues with Bitcoin Cash wallets).\n* Fixes smaller issues with the user interface, customization, and more."
 	},
 	{
 		"required": false,
