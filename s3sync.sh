@@ -27,9 +27,9 @@ fi
 
 for DIR in $DIRS; do
     if [ "x$1" == "x-d" ]; then
-        aws s3 sync --delete --cache-control 'public, max-age=3600' --exclude "*.json" --exclude "*.txt" $DIR s3://$BUCKET/$DIR
+        aws s3 sync --delete --cache-control 'public, max-age=3600' $DIR s3://$BUCKET/$DIR
     else
-        aws s3 sync --cache-control 'public, max-age=3600' --exclude "*.json" --exclude "*.txt" $DIR s3://$BUCKET/$DIR
+        aws s3 sync --cache-control 'public, max-age=3600' $DIR s3://$BUCKET/$DIR
     fi
 done
 
