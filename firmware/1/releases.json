@@ -10,6 +10,7 @@
 		"url_bitcoinonly": "data/firmware/1/trezor-1.9.3-bitcoinonly.bin",
 		"fingerprint": "2589f456559f813d1149be1022e62f2d48fbe28f4d02de933bd888d91035cace",
 		"fingerprint_bitcoinonly": "76f899d60ffd9685713cb420d017565c05c43aadaf0e62b645a50a8db69afef6",
+		"notes": "https://blog.trezor.io/firmware-updates-for-trezor-model-t-version-2-3-3-and-trezor-model-one-version-1-9-3-c94f7a3b6fea",
 		"changelog": "* Improves the Passphrase feature by showing the entered passphrase on the Trezor screen before opening the wallet.\n* Adds support for Verge (XVG).\n* Drops support for Metaverse (ETP), GINcoin (GIN), Pesetacoin (PTC), and Zel (ZEL).\n* Re-enables spending coins from Bitcoin paths (fixing some compatibility issues with Bitcoin Cash wallets).\n* Fixes smaller issues in the user interface."
 	},
 	{
