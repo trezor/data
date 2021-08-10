@@ -6,6 +6,7 @@
 
 DIRS="bootloader bridge firmware legal registry udev suite"
 BUCKET=data.trezor.io
+ROLLBACK=rollback-data.trezor.io
 DISTRIBUTION_ID="E1ERY5K2OTKKI1"
 
 cd `dirname $0`
@@ -18,12 +19,7 @@ fi
 
 set -e
 
-read -r -p "Are you sure? [y/N] " response
-if [[ $response =~ ^(yes|y)$ ]]; then
-    echo "let's go!"
-else
-    exit 2
-fi
+aws s3 sync s3://$BUCKET s3://$ROLLBACK
 
 for DIR in $DIRS; do
     if [ "x$1" == "x-d" ]; then

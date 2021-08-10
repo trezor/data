@@ -1,0 +1,19 @@
+# Upload everything to staging
+ stages:
+   - test
+   - deploy
+ 
+ 
+ deploy to data.trezor.io:
+  stage: deploy
+  needs: []
+  before_script: []
+  only:
+    refs:
+      - master
+  when: manual
+  script:
+    - source ${DEPLOY_DATA_KEYFILE}
+    - ./ci/s3sync.sh
+  tags:
+    - deploy
