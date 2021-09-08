@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Before first use:
 # Install awscli (pip install awscli)
