@@ -1,10 +1,9 @@
 # Upload everything to staging
- stages:
-   - test
-   - deploy
- 
- 
- deploy to data.trezor.io:
+stages:
+  - test
+  - deploy
+
+deploy to data.trezor.io:
   stage: deploy
   needs: []
   before_script: []
