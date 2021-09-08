@@ -7,6 +7,8 @@ deploy to data.trezor.io:
   stage: deploy
   needs: []
   before_script: []
+  variables:
+    GIT_STRATEGY: clone
   only:
     refs:
       - master
