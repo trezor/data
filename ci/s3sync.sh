@@ -9,8 +9,6 @@ BUCKET=data.trezor.io
 ROLLBACK=rollback-data.trezor.io
 DISTRIBUTION_ID="E1ERY5K2OTKKI1"
 
-cd `dirname $0`
-
 ./check_releases.py
 if [ "$?" != "0" ]; then
     echo "check_releases.py failed."
