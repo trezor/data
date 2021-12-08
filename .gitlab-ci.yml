@@ -15,6 +15,7 @@ deploy to data.trezor.io:
   before_script: []
   script:
     - source ${DEPLOY_DATA_KEYFILE}
+    - nix-shell --run "git lfs pull"
     - nix-shell --run "./ci/s3sync.sh"
   tags:
     - deploy
