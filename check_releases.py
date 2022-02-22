@@ -2,7 +2,6 @@
 
 import os
 import json
-import binascii
 import struct
 
 
@@ -51,7 +50,7 @@ def check_firmware(model, bitcoin_only=False):
     print("Checking Firmware (model %s) data:" % model)
 
     ok = True
-    releases = json.loads(open("firmware/%s/releases.json" % model, "r").read())
+    releases = json.load(open("firmware/%s/releases.json" % model, "r"))
 
     # Find out the latest firmware release
     latest = [0, 0, 0]
@@ -75,12 +74,12 @@ def check_firmware(model, bitcoin_only=False):
 
         print("  * %s ... " % firmware, end="")
 
-        if not os.path.exists(firmware[len("data/"):]):
+        if not os.path.exists(firmware[len("data/") :]):
             print("MISSING")
             ok = False
             continue
         else:
-            data = open(firmware[len("data/"):], "rb").read()
+            data = open(firmware[len("data/") :], "rb").read()
 
         if model == "1":
             start = b"TRZR"
@@ -97,7 +96,10 @@ def check_firmware(model, bitcoin_only=False):
             codelen = codelen[0]
 
             if codelen + 256 != len(data):
-                print("INVALID SIZE (is %d bytes, should be %d bytes)" % (codelen + 256, len(data)))
+                print(
+                    "INVALID SIZE (is %d bytes, should be %d bytes)"
+                    % (codelen + 256, len(data))
+                )
                 ok = False
                 continue
 
@@ -111,11 +113,15 @@ def check_firmware(model, bitcoin_only=False):
 
         if model == "2":
             vendorlen = struct.unpack("<I", data[4:8])[0]
-            headerlen = struct.unpack("<I", data[4 + vendorlen:8 + vendorlen])[0]
-            codelen = struct.unpack("<I", data[12 + vendorlen:16 + vendorlen])[0]
+            headerlen = struct.unpack("<I", data[4 + vendorlen : 8 + vendorlen])[0]
+            codelen = struct.unpack("<I", data[12 + vendorlen : 16 + vendorlen])[0]
 
-            if codelen + vendorlen + headerlen != len(data):
-                print("INVALID SIZE (is %d bytes, should be %d bytes)" % (codelen + vendorlen + headerlen, len(data)))
+            expected_len = codelen + vendorlen + headerlen
+            if expected_len != len(data):
+                print(
+                    "INVALID SIZE (is %d bytes, should be %d bytes)"
+                    % (expected_len, len(data))
+                )
                 ok = False
                 continue
 
