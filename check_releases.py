@@ -67,6 +67,17 @@ def check_firmware(model, bitcoin_only=False):
         firmware = r["url_bitcoinonly"] if bitcoin_only else r["url"]
         version = ".".join([str(x) for x in r["version"]])
 
+        if bitcoin_only:
+            if not "changelog_bitcoinonly" in r:
+                print("Missing changelog_bitcoinonly")
+                ok = False
+                continue
+        else:
+            if not "changelog" in r:
+                print("Missing changelog")
+                ok = False
+                continue
+
         if version not in firmware:
             print("Missing '%s' in '%s'" % (version, firmware))
             ok = False

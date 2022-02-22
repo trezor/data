@@ -11,7 +11,8 @@
         "fingerprint": "7619fcc73c43ca8a3e6aad3dc3eb6551fed05bb218340efe01a02bb96e9f346b",
         "fingerprint_bitcoinonly": "1d319f643fe2ba5c247b178c7f73b989ab4e43d914a60468566ee7cc5bb9dde0",
         "notes": "https://blog.trezor.io/trezor-suite-update-january-2022-4a77e4a07a5a",
-        "changelog": "* Support for blindly signing EIP-712 data."
+        "changelog": "* Support for blindly signing EIP-712 data.",
+        "changelog_bitcoinonly": "* Small code improvements."
     },
     {
         "required": false,
@@ -25,7 +26,8 @@
         "fingerprint": "74dfdfb9addb9d90fedb2c88794b7236af521d21ef0096f9080c25b597c8af86",
         "fingerprint_bitcoinonly": "30d858b022e218f27854f071d568e5a696c937f1316d83b93aadcd178f3b0a38",
         "notes": "https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283",
-        "changelog": "* Support Taproot.\n* Show address confirmation in SignMessage.\n* Support for Ethereum EIP-1559 transactions."
+        "changelog": "* Support Taproot.\n* Show address confirmation in SignMessage.\n* Support for Ethereum EIP-1559 transactions.",
+        "changelog_bitcoinonly": "* Support Taproot.\n* Show address confirmation in SignMessage."
     },
     {
         "required": false,
@@ -39,7 +41,8 @@
         "fingerprint": "bf0cc936a9afbf0a4ae7b727a2817fb69fba432d7230a0ff7b79b4a73b845197",
         "fingerprint_bitcoinonly": "d1143d2cba9c7dba4d57703d2b7da87859d8668472ffc651177ead6b94e89117",
         "notes": "https://blog.trezor.io/trezor-suite-and-firmware-updates-september-2021-a490f2ea16c1",
-        "changelog": "* Remove Lisk.\n* Re-enabled Firo support.\n* Stricter protobuf field handling in Stellar."
+        "changelog": "* Remove Lisk.\n* Re-enabled Firo support.\n* Stricter protobuf field handling in Stellar.",
+        "changelog_bitcoinonly": "* Small code improvements"
     },
     {
         "required": false,
@@ -53,7 +56,8 @@
         "fingerprint": "99707b90a504f7e402f26c3d59cbbdacbc52754cebcce79cc47be528fc889338",
         "fingerprint_bitcoinonly": "e597b6aef5a2e817f532d27b8501f99f189e432a887877bdd3498cd3a0afc431",
         "notes": "https://blog.trezor.io/trezor-suite-launches-8958c1d37d33",
-        "changelog": "* Security improvements."
+        "changelog": "* Security improvements.",
+        "changelog_bitcoinonly": "* Security improvements."
     },
     {
         "required": false,
@@ -67,7 +71,8 @@
         "fingerprint": "36400becf1cdddec22b8150d56ff59eef76d37fef60dc465a6f82b4858903886",
         "fingerprint_bitcoinonly": "74227362016a8763c4d5f5b06eeb7eabe5fbd7ed05798b586cc7f4bfef50d7fe",
         "notes": "https://blog.trezor.io/trezor-suite-and-firmware-updates-june-2021-c70aba9f0e3f",
-        "changelog": "* Safety checks setting in T1."
+        "changelog": "* Safety checks setting in T1.",
+        "changelog_bitcoinonly": "* Safety checks setting in T1."
     },
     {
         "required": false,
@@ -81,7 +86,8 @@
         "fingerprint": "595ba3e8e887cba185e03098f9538e18164f72f9fc82445e691abcd03e5cf0a4",
         "fingerprint_bitcoinonly": "20a4068c34ff6dd7d8c510350409376cf7ea744ba668fdcf16da8f1d81fed289",
         "notes": "https://blog.trezor.io/trezor-firmware-updates-may-2021-b11f6d52a65b",
-        "changelog": "* Bootloader 1.10.0.\n* Allow decreasing the output value in RBF transactions.\n* Support long PIN of up to 50 digits.\n* Display nLockTime in human-readable form."
+        "changelog": "* Bootloader 1.10.0.\n* Allow decreasing the output value in RBF transactions.\n* Support long PIN of up to 50 digits.\n* Display nLockTime in human-readable form.",
+        "changelog_bitcoinonly": "* Bootloader 1.10.0.\n* Allow decreasing the output value in RBF transactions.\n* Support long PIN of up to 50 digits.\n* Display nLockTime in human-readable form."
     },
     {
         "required": false,
@@ -95,7 +101,8 @@
         "fingerprint": "867017bd784cc4e9ce6f0875c61ea86f89b19380d54045c34608b85472998000",
         "fingerprint_bitcoinonly": "3f73dfbcfc48f66c8814f6562524d81888230e0acd1c19b52b6e8772c6c67e7f",
         "notes": "https://blog.trezor.io/trezor-suite-and-firmware-updates-rbf-and-spending-now-live-c2f69c42d7f7",
-        "changelog": "* Replacement transaction signing for replace-by-fee.\n* Support for Output Descriptors export.\n* Show Ypub/Zpub correctly for multisig GetAddress.\n* Show amounts in mBTC, uBTC and sat denominations."
+        "changelog": "* Replacement transaction signing for replace-by-fee.\n* Support for Output Descriptors export.\n* Show Ypub/Zpub correctly for multisig GetAddress.\n* Show amounts in mBTC, uBTC and sat denominations.",
+        "changelog_bitcoinonly": "* Replacement transaction signing for replace-by-fee.\n* Support for Output Descriptors export.\n* Show Ypub/Zpub correctly for multisig GetAddress.\n* Show amounts in mBTC, uBTC and sat denominations."
     },
     {
         "required": false,
@@ -109,7 +116,8 @@
         "fingerprint": "2589f456559f813d1149be1022e62f2d48fbe28f4d02de933bd888d91035cace",
         "fingerprint_bitcoinonly": "76f899d60ffd9685713cb420d017565c05c43aadaf0e62b645a50a8db69afef6",
         "notes": "https://blog.trezor.io/firmware-updates-for-trezor-model-t-version-2-3-3-and-trezor-model-one-version-1-9-3-c94f7a3b6fea",
-        "changelog": "* Improves the Passphrase feature by showing the entered passphrase on the Trezor screen before opening the wallet.\n* Adds support for Verge (XVG).\n* Drops support for Metaverse (ETP), GINcoin (GIN), Pesetacoin (PTC), and Zel (ZEL).\n* Re-enables spending coins from Bitcoin paths (fixing some compatibility issues with Bitcoin Cash wallets).\n* Fixes smaller issues in the user interface."
+        "changelog": "* Improves the Passphrase feature by showing the entered passphrase on the Trezor screen before opening the wallet.\n* Adds support for Verge (XVG).\n* Drops support for Metaverse (ETP), GINcoin (GIN), Pesetacoin (PTC), and Zel (ZEL).\n* Re-enables spending coins from Bitcoin paths (fixing some compatibility issues with Bitcoin Cash wallets).\n* Fixes smaller issues in the user interface.",
+        "changelog_bitcoinonly": "* Improves the Passphrase feature by showing the entered passphrase on the Trezor screen before opening the wallet.\n* Fixes smaller issues in the user interface."
     },
     {
         "required": false,
@@ -123,7 +131,8 @@
         "fingerprint": "45b83acd1330ddfd5567edbae5ff8028df1c48a493f01d47cc5499ee0be9b991",
         "fingerprint_bitcoinonly": "2762c0ff78c96e23d1d348330e0a3cdf45d83c8fc8c2d48853b7cb602ddc19bb",
         "notes": "https://blog.trezor.io/firmware-updates-for-trezor-model-t-version-2-3-2-and-trezor-model-one-version-1-9-2-f4f9c0f1ed7c",
-        "changelog": "* Reintroduces the ability to spend pre-Overwinter (2018) funds on Zcash-like coins.\n* Adds support for multiple change outputs in outgoing transactions.\n* Adds a security check to prevent potential issues with paths used in altcoin transactions."
+        "changelog": "* Reintroduces the ability to spend pre-Overwinter (2018) funds on Zcash-like coins.\n* Adds support for multiple change outputs in outgoing transactions.\n* Adds a security check to prevent potential issues with paths used in altcoin transactions.",
+        "changelog_bitcoinonly": "* Adds support for multiple change outputs in outgoing transactions."
     },
     {
         "required": false,
@@ -137,7 +146,8 @@
         "fingerprint": "30cde253c46d4fc705f98634a35d06a494cf2a36824622a9c6a573e07f14292d",
         "fingerprint_bitcoinonly": "ee743e3bd1e424ceb45a1d877a5422e7af449706f636c459cdd8bb0d4796cba5",
         "notes": "https://blog.trezor.io/details-of-firmware-updates-for-trezor-one-version-1-9-1-and-trezor-model-t-version-2-3-1-1eba8f60f2dd",
-        "changelog": "* Refactor Bitcoin signing"
+        "changelog": "* Refactor Bitcoin signing",
+        "changelog_bitcoinonly": "* Refactor Bitcoin signing"
     },
     {
         "required": false,
@@ -151,7 +161,8 @@
         "fingerprint": "1f40d1e68f9d182888b5b60da5209eff047ec68fcc96a5c9b61b0e55dd07d458",
         "fingerprint_bitcoinonly": "93a670dd20d044bf76cfce6eecd2a85918acdebe616229dbb31250fd03a33870",
         "notes": "https://blog.trezor.io/details-of-firmware-updates-for-trezor-one-version-1-9-0-and-trezor-model-t-version-2-3-0-46deb141fc09",
-        "changelog": "* Introduce Wipe Code\n* Introduce passphrase cache"
+        "changelog": "* Introduce Wipe Code\n* Introduce passphrase cache",
+        "changelog_bitcoinonly": "* Introduce Wipe Code\n* Introduce passphrase cache"
     },
     {
         "required": false,
@@ -164,7 +175,8 @@
         "url_bitcoinonly": "data/firmware/1/trezor-1.8.3-bitcoinonly.bin",
         "fingerprint": "496aecfab867504b2283a9f057a0b2fd9d17970a22c81f6ad74232e7b914ce68",
         "fingerprint_bitcoinonly": "13d6089cb935f453eaddbfe193e0ab37924a7aa66f684355a4fe5c660c18247a",
-        "changelog": "* Small code improvements"
+        "changelog": "* Small code improvements",
+        "changelog_bitcoinonly": "* Small code improvements"
     },
     {
         "required": false,
