@@ -16,7 +16,7 @@ jobs:
         with:
           lfs: "true"
       - name: Setup python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
