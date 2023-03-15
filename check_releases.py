@@ -93,7 +93,8 @@ def check_firmware(model, bitcoin_only=False):
             data = open(firmware[len("data/") :], "rb").read()
 
         if model == "1":
-            start = b"TRZR"
+            legacy_header = r["version"] < [1, 12, 0]
+            start = b"TRZR" if legacy_header else b"TRZF"
         elif model == "2":
             start = b"TRZV"
 
@@ -103,13 +104,19 @@ def check_firmware(model, bitcoin_only=False):
             continue
 
         if model == "1":
-            codelen = struct.unpack("<I", data[4:8])
-            codelen = codelen[0]
+            if legacy_header:
+                hdrlen = 256
+                codelen = struct.unpack("<I", data[4:8])
+                codelen = codelen[0]
+            else:
+                hdrlen = 1024
+                codelen = struct.unpack("<I", data[12:16])
+                codelen = codelen[0]
 
-            if codelen + 256 != len(data):
+            if hdrlen + codelen != len(data):
                 print(
                     "INVALID SIZE (is %d bytes, should be %d bytes)"
-                    % (codelen + 256, len(data))
+                    % (hdrlen + codelen, len(data))
                 )
                 ok = False
                 continue
