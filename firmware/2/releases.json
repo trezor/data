@@ -284,6 +284,7 @@
     {
         "required": false,
         "version": [2, 1, 0],
+        "bootloader_version": [2, 0, 3],
         "min_bridge_version": [2, 0, 7],
         "min_firmware_version": [2, 0, 5],
         "min_bootloader_version": [2, 0, 0],
@@ -296,7 +297,7 @@
     {
         "required": false,
         "version": [2, 0, 10],
-        "bootloader_version": [2, 0, 3],
+        "bootloader_version": [2, 0, 2],
         "min_bridge_version": [2, 0, 7],
         "min_firmware_version": [2, 0, 5],
         "min_bootloader_version": [2, 0, 0],
