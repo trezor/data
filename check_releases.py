@@ -44,7 +44,7 @@ def check_bridge():
 
 def check_firmware(model, bitcoin_only=False):
 
-    if model not in ["1", "2"]:
+    if model not in ["1", "2", "t1b1", "t2t1"]:
         raise ValueError("Unknown model: %s" % model)
 
     print("Checking Firmware (model %s) data:" % model)
@@ -92,10 +92,10 @@ def check_firmware(model, bitcoin_only=False):
         else:
             data = open(firmware[len("data/") :], "rb").read()
 
-        if model == "1":
+        if model == "1" or model == "t1b1":
             legacy_header = r["version"] < [1, 12, 0]
             start = b"TRZR" if legacy_header else b"TRZF"
-        elif model == "2":
+        elif model == "2" or model == "t2t1":
             start = b"TRZV"
 
         if not data.startswith(start):
@@ -103,7 +103,7 @@ def check_firmware(model, bitcoin_only=False):
             ok = False
             continue
 
-        if model == "1":
+        if model == "1" or model == "t1b1":
             if legacy_header:
                 hdrlen = 256
                 codelen = struct.unpack("<I", data[4:8])
@@ -129,7 +129,7 @@ def check_firmware(model, bitcoin_only=False):
             else:
                 print("OK")
 
-        if model == "2":
+        if model == "2" or model == "t2t1":
             vendorlen = struct.unpack("<I", data[4:8])[0]
             headerlen = struct.unpack("<I", data[4 + vendorlen : 8 + vendorlen])[0]
             codelen = struct.unpack("<I", data[12 + vendorlen : 16 + vendorlen])[0]
@@ -156,9 +156,13 @@ if __name__ == "__main__":
 
     ok &= check_bridge()
     ok &= check_firmware("1")
+    ok &= check_firmware("t1b1")
     ok &= check_firmware("1", bitcoin_only=True)
+    ok &= check_firmware("t1b1", bitcoin_only=True)
     ok &= check_firmware("2")
+    ok &= check_firmware("t2t1")
     ok &= check_firmware("2", bitcoin_only=True)
+    ok &= check_firmware("t2t1", bitcoin_only=True)
 
     if ok:
         print("EVERYTHING OK")
