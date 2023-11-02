@@ -44,7 +44,7 @@ def check_bridge():
 
 def check_firmware(model, bitcoin_only=False):
 
-    if model not in ["1", "2", "t1b1", "t2t1"]:
+    if model not in ["1", "2", "t1b1", "t2t1", "t2b1"]:
         raise ValueError("Unknown model: %s" % model)
 
     print("Checking Firmware (model %s) data:" % model)
@@ -95,7 +95,7 @@ def check_firmware(model, bitcoin_only=False):
         if model == "1" or model == "t1b1":
             legacy_header = r["version"] < [1, 12, 0]
             start = b"TRZR" if legacy_header else b"TRZF"
-        elif model == "2" or model == "t2t1":
+        elif model == "2" or model == "t2t1" or model == "t2b1":
             start = b"TRZV"
 
         if not data.startswith(start):
@@ -145,6 +145,23 @@ def check_firmware(model, bitcoin_only=False):
 
             else:
                 print("OK")
+        
+        if model == "t2b1":
+            vendorlen = struct.unpack("<I", data[4:8])[0]
+            headerlen = struct.unpack("<I", data[4 + vendorlen : 8 + vendorlen])[0]
+            codelen = struct.unpack("<I", data[12 + vendorlen : 16 + vendorlen])[0]
+
+            expected_len = codelen + vendorlen + headerlen
+            if expected_len != len(data):
+                print(
+                    "INVALID SIZE (is %d bytes, should be %d bytes)"
+                    % (expected_len, len(data))
+                )
+                ok = False
+                continue
+
+            else:
+                print("OK")
 
     print()
     return ok
@@ -163,7 +180,8 @@ if __name__ == "__main__":
     ok &= check_firmware("t2t1")
     ok &= check_firmware("2", bitcoin_only=True)
     ok &= check_firmware("t2t1", bitcoin_only=True)
-
+    ok &= check_firmware("t2b1")
+    ok &= check_firmware("t2b1", bitcoin_only=True)
     if ok:
         print("EVERYTHING OK")
         exit(0)
