@@ -17,7 +17,8 @@ fi
 
 set -e
 
-aws s3 sync s3://$BUCKET s3://$ROLLBACK
+# Disable rollback in favor of versioned bucket
+# aws s3 sync s3://$BUCKET s3://$ROLLBACK
 
 for DIR in $DIRS; do
     if [ "x$1" == "x-d" ]; then
