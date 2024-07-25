@@ -6,8 +6,32 @@ jobs:
   check_releases:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-      with:
-        lfs: "true"
-    - uses: actions/setup-python@v4
-    - run: python check_releases.py
+      - uses: actions/checkout@v3
+        with:
+          lfs: "true"
+      - uses: actions/setup-python@v4
+      - run: python check_releases.py
+
+  releases-revision-checks:
+    name: Releases revision Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Check releases.json files changes
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            releases-json:
+              - 'firmware/t1b1/releases.json'
+              - 'firmware/1/releases.json'
+              - 'firmware/t2t1/releases.json'
+              - 'firmware/2/releases.json'
+        if: steps.changes.outputs.releases-json == 'true'
+      - name: Check releases.json revisions
+        run: |
+          ./scripts/check-firmware-revisions.sh t1b1 \
+          && ./scripts/check-firmware-revisions.sh 1 \
+          && ./scripts/check-firmware-revisions.sh t2t1 \
+          && ./scripts/check-firmware-revisions.sh 2
