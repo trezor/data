@@ -12,6 +12,15 @@ jobs:
       - uses: actions/setup-python@v4
       - run: python check_releases.py
 
+  releases-json-integrity-check:
+    name: releases.json integrity check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Check releases.json files changes
+        run: ./scripts/run-releases-json-for-all-devices.sh
+
   releases-revision-checks:
     name: Releases revision Checks
     runs-on: ubuntu-latest
