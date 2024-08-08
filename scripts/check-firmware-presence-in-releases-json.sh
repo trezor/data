@@ -22,30 +22,7 @@ extract_filenames_from_json() {
   #   b) super-old firmwares
 
   jq -r '.[] | select(.url) | .url, .url_bitcoinonly' "$json_file" | xargs -n 1 basename | sort | uniq \
-    | grep -vFf <(cat << EOF
-null
-trezor-1.0.0.bin
-trezor-1.1.0.bin
-trezor-1.2.0.bin
-trezor-1.2.1.bin
-trezor-1.3.0.bin
-trezor-1.3.1.bin
-trezor-1.3.2.bin
-trezor-1.3.3.bin
-trezor-1.3.4.bin
-trezor-1.3.5.bin
-trezor-t1b1-1.0.0.bin
-trezor-t1b1-1.1.0.bin
-trezor-t1b1-1.2.0.bin
-trezor-t1b1-1.2.1.bin
-trezor-t1b1-1.3.0.bin
-trezor-t1b1-1.3.1.bin
-trezor-t1b1-1.3.2.bin
-trezor-t1b1-1.3.3.bin
-trezor-t1b1-1.3.4.bin
-trezor-t1b1-1.3.5.bin
-EOF
-)
+    | grep -vF "null"
 }
 
 list_files_in_directory() {
