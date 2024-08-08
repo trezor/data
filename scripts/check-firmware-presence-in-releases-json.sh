@@ -21,7 +21,7 @@ extract_filenames_from_json() {
   #   a) 'null' from missing .url_bitcoinonly for older firmwares
   #   b) super-old firmwares
 
-  jq -r '.[] | select(.url) | .url, .url_bitcoinonly' "$json_file" | xargs -n 1 basename | sort | uniq \
+  jq -r '.[] | select(.url) | .url, .url_bitcoinonly' "$json_file" | xargs -n1 --no-run-if-empty basename | sort | uniq \
     | grep -vF "null"
 }
 
