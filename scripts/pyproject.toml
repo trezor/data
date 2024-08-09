@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py-scripts-data"
+version = "0.1.0"
+description = ""
+authors = ["matejcik <ja@matejcik.cz>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+trezor = "^0.13.9"
+questionary = "^2.0.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
