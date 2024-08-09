@@ -3,7 +3,8 @@
 # This is basically copy-paste of 
 #     https://github.com/trezor/trezor-suite/blob/develop/packages/connect-common/scripts/check-firmware-revisions.sh
 #
-#     with small adjustments for. Please keep them in sync if possible.
+#     Small adjustments are made because here we check releases.json here in data/firmware, not those in trezor-suite/connect-common.
+#     Please keep them in sync if possible.
 #
 
 PARENT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" || exit ; pwd -P )
@@ -16,11 +17,20 @@ fi
 
 DEVICE=$1
 
-if [[ $DEVICE != "t1b1" && $DEVICE != "t2t1" && $DEVICE != "1" && $DEVICE != "2" ]]
-    then
-        echo "device must be either 't1b1' or 't2t1' or '1' or '2' (lowercase!)"
-        exit 1
+RELEASES_FOLDER="$PARENT_PATH"/../firmware
+
+EXCLUDED_DIR="translations"
+
+if [[ $EXCLUDED_DIR == "$DEVICE" ]]; then
+    echo "Invalid device $DEVICE, this is a reserved folder."
+    exit 1
 fi
+if ! test -d "$RELEASES_FOLDER/$DEVICE"; then
+    echo "Device $DEVICE not found in releases folder!"
+    exit 1
+fi
+
+echo "CHECKING RELEASES FOR $DEVICE"
 
 BRANCH="main"
 REPO_DIR_NAME=$PARENT_PATH"/../../trezor-firmware-for-revision-check"
@@ -39,7 +49,7 @@ git fetch origin
 git checkout "$BRANCH"
 git reset "origin/$BRANCH" --hard
 
-DATA=$(jq -r '.[] | .version |= join(".") | .firmware_revision + "%" + .version' < "$PARENT_PATH"/../firmware/"$DEVICE"/releases.json)
+DATA=$(jq -r '.[] | .version |= join(".") | .firmware_revision + "%" + .version' < "$RELEASES_FOLDER/$DEVICE"/releases.json)
 
 for ROW in $DATA;
 do 
