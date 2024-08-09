@@ -16,11 +16,11 @@ This will scan all models for a newly added version 2.8.1 and generate the corre
 entries. If a bootloader is updated, you still have to edit releases.json manually,
 or provide the new bootloader version with the --bootloader-version option.
 
+You can interactively select the changelog entries that do not belong in btconly.
+
 MISSING FEATURES:
 * T1B1 is not supported. It should be enough to add an entry to BOOTLOADER_MIN
   and FIRMWARE_MIN, maybe.
-* Can't do a bitcoin-only specific changelog. Not sure how that would look in the notion
-  format. Someone will need to fix that.
 
 The changelog format is as copypasted from notion. Expected format:
 
