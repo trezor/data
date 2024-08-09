@@ -1,6 +1,22 @@
 [
     {
         "required": false,
+        "version": [2, 8, 1],
+        "min_bridge_version": [2, 0, 7],
+        "min_bootloader_version": [2, 0, 0],
+        "min_firmware_version": [2, 0, 8],
+        "bootloader_version": [2, 1, 6],
+        "firmware_revision": "632b9561559b7ab6824bb7eeac072874e07b7b82",
+        "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR"],
+        "url": "data/firmware/t2t1/trezor-t2t1-2.8.1.bin",
+        "fingerprint": "d3af84a212d32785449ca6575e3cf2a641920b353a82dec9f059083ea5d4b149",
+        "changelog": "* Fixed displaying of a progress indicator for the formatting operation.\n* Improve precision of PIN validation countdown.\n* Solana: Improved support for AToken Create operation.",
+        "url_bitcoinonly": "data/firmware/t2t1/trezor-t2t1-2.8.1-bitcoinonly.bin",
+        "fingerprint_bitcoinonly": "38ab127fcf4263a18a3b07593301fdd2c6a1a96360b62c131adb849b5d18fae3",
+        "changelog_bitcoinonly": "* Fixed displaying of a progress indicator for the formatting operation.\n* Improve precision of PIN validation countdown."
+    },
+    {
+        "required": false,
         "version": [2, 7, 2],
         "min_bridge_version": [2, 0, 7],
         "min_firmware_version": [2, 0, 8],
@@ -30,7 +46,7 @@
         "firmware_revision": "45e8a842a31e62a6d43d7f6ccac62a45e1198ef0",
         "changelog": "* Add translations capability. \n* Allow for going back to previous word in recovery process. \n* Clear sign ETH staking transactions on Everstake pool. [Universal fw only] \n* Display descriptors for BTC Taproot public keys. \n* Fixed blank display delay on startup when display orientation is set to other than north. \n* Multiple Solana instructions improved. [Universal fw only]",
         "changelog_bitcoinonly": "* Add translations capability. \n* Allow for going back to previous word in recovery process. \n* Display descriptors for BTC Taproot public keys. \n* Fixed blank display delay on startup when display orientation is set to other than north."
-    },      
+    },
     {
         "required": false,
         "version": [2, 6, 4],
@@ -45,7 +61,7 @@
         "firmware_revision": "42e9ed0e09033d474dee1a560fe5870646fa440e",
         "changelog": "* Trezor Model T now supports Solana, expanding the range of cryptocurrencies it can securely manage. [Universal fw only] \n* Ethereum fees are now uniformly presented in Gwei, enhancing clarity and consistency for users. [Universal fw only] \n* The display of spaced addresses has been refined, offering a more user-friendly and visually optimized experience. \n* Boot-up logo display has been optimized, contributing to a smoother and more visually appealing device startup.",
         "changelog_bitcoinonly": "* The display of spaced addresses has been refined, offering a more user-friendly and visually optimized experience. \n* Boot-up logo display has been optimized, contributing to a smoother and more visually appealing device startup."
-    },    
+    },
     {
         "required": false,
         "version": [2, 6, 3],
@@ -60,7 +76,7 @@
         "firmware_revision": "2c7cc6e0255dee2339b445b5551eaffb88dbd1b4",
         "changelog": "* QR Code for Extended Public Keys (XPUBs). \n* Adjusted buttons for multipage content scrolling, providing a more intuitive and user-friendly experience. \n* The new bootloader version 2.1.4 is now included for enhanced system performance and security.",
         "changelog_bitcoinonly": "* QR Code for Extended Public Keys (XPUBs). \n* Adjusted buttons for multipage content scrolling, providing a more intuitive and user-friendly experience. \n* The new bootloader version 2.1.4 is now included for enhanced system performance and security."
-    },    
+    },
     {
         "required": false,
         "version": [2, 6, 0],
@@ -120,7 +136,7 @@
         "firmware_revision": "85a26d2c9593bcdf858c2d718d79951ca927a0c3",
         "notes": "https://blog.trezor.io/trezor-suite-and-firmware-updates-may-2022-b1af60742291",
         "changelog": "* Support Electrum signatures in VerifyMessage.\n* Support Cardano Alonzo-era transactions (Plutus).\n* Bitcoin bech32 addresses QR codes have bigger pixels which are easier to scan.\n* EIP-1559 transaction correctly show final Hold to Confirm screen.\n* Trezor will refuse to sign UTXOs that do not match the provided derivation path (e.g., transactions belonging to a different wallet, or synthetic transaction inputs).\n* Zcash v5 transaction format.",
-        "changelog_bitcoinonly": "* Support Electrum signatures in VerifyMessage.\n* Bitcoin bech32 addresses QR codes have bigger pixels which are easier to scan.\n* Trezor will refuse to sign UTXOs that do not match the provided derivation path (e.g., transactions belonging to a different wallet, or synthetic transaction inputs)."    
+        "changelog_bitcoinonly": "* Support Electrum signatures in VerifyMessage.\n* Bitcoin bech32 addresses QR codes have bigger pixels which are easier to scan.\n* Trezor will refuse to sign UTXOs that do not match the provided derivation path (e.g., transactions belonging to a different wallet, or synthetic transaction inputs)."
     },
     {
         "required": false,
