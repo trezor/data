@@ -30,8 +30,4 @@ jobs:
               - 'firmware/2/releases.json'
         if: steps.changes.outputs.releases-json == 'true'
       - name: Check releases.json revisions
-        run: |
-          ./scripts/check-firmware-revisions.sh t1b1 \
-          && ./scripts/check-firmware-revisions.sh 1 \
-          && ./scripts/check-firmware-revisions.sh t2t1 \
-          && ./scripts/check-firmware-revisions.sh 2
+        run: ./scripts/check-all-firmware-revisions.sh
