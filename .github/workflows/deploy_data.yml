@@ -1,10 +1,23 @@
-name: deploy - data.trezor.io
+name: "[Deploy] data.trezor.io"
 
 on:
   push:
     branches:
       - "master"
-
+    # configures the workflow to run only when the path of the data directory changes
+    paths:
+      - "data/**"
+      - "bootloader/**"
+      - "bridge/**"
+      - "firmware/**"
+      - "legal/**"
+      - "registry/**"
+      - "udev/**"
+      - "suite/**"
+      - "connect/**"
+      - "security/**"
+      - "transparency/**"
+      - "misc/**"
 jobs:
   deploy_data:
     environment: production
@@ -12,13 +25,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           lfs: "true"
       - name: Setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
