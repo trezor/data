@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This is basically copy-paste of 
+# This is basically copy-paste of
 #     https://github.com/trezor/trezor-suite/blob/develop/packages/connect-common/scripts/check-firmware-revisions.sh
 #
 #     Small adjustments are made because here we check releases.json here in data/firmware, not those in trezor-suite/connect-common.
@@ -52,14 +52,14 @@ git reset "origin/$BRANCH" --hard
 DATA=$(jq -r '.[] | .version |= join(".") | .firmware_revision + "%" + .version' < "$RELEASES_FOLDER/$DEVICE"/releases.json)
 
 for ROW in $DATA;
-do 
+do
     FW_REVISION=$(echo "$ROW" | cut -d"%" -f1)
     EXPECTED_TAG=$([[ "$DEVICE" == "t1b1" || "$DEVICE" == "1" ]] && echo "legacy" || echo "core")/v$(echo "$ROW" | cut -d"%" -f2)
-    
+
     RESULT_TAGS=$(git tag --points-at "$FW_REVISION")
 
     for RESULT_TAG in $RESULT_TAGS;
-    do  
+    do
         if [[ "$RESULT_TAG" == "$EXPECTED_TAG" ]]; then
             echo "[$DEVICE] Version $EXPECTED_TAG ... OK"
             continue 2

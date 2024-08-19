@@ -145,7 +145,7 @@ def check_firmware(model, bitcoin_only=False):
 
             else:
                 print("OK")
-        
+
         if model == "t2b1":
             vendorlen = struct.unpack("<I", data[4:8])[0]
             headerlen = struct.unpack("<I", data[4 + vendorlen : 8 + vendorlen])[0]

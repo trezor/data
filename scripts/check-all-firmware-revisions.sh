@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This is basically copy-paste of 
+# This is basically copy-paste of
 #     https://github.com/trezor/trezor-suite/blob/develop/packages/connect-common/scripts/check-all-firmware-revisions.sh
 #
 #     Small adjustments are made because here we check releases.json here in data/firmware, not those in trezor-suite/connect-common.
