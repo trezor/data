@@ -1,23 +1,25 @@
-name: Releases Check
+name: "[Check] fw releases"
 
 on: [pull_request]
 
 jobs:
   check_releases:
+    name: Check releases
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           lfs: "true"
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
       - run: python check_releases.py
 
   releases-revision-checks:
-    name: Releases revision Checks
+    name: Check firmware releases revisions
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Check releases.json files changes
         uses: dorny/paths-filter@v3
         id: changes
