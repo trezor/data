@@ -10,9 +10,9 @@
     "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "it-IT", "pt-BR"],
     "url": "data/firmware/t3b1/trezor-t3b1-2.8.3.bin",
     "fingerprint": "b659bdc5ddce208d46ce649fc7a8995ae49541c7c41a88ddaac5dfc038ffb5de",
-    "changelog": "* Renamed MATIC to POL, following a network upgrade.\n* Fix persistent word when going to previous word during recovery process.\n* Fix display orientation\xa0*south*.",
+    "changelog": "* Renamed MATIC to POL, following a network upgrade.\n* Fix persistent word when going to previous word during recovery process.\n* Fix display orientation south.",
     "url_bitcoinonly": "data/firmware/t3b1/trezor-t3b1-2.8.3-bitcoinonly.bin",
     "fingerprint_bitcoinonly": "070a61b2a8653e4f9857810b6610d0a15f76ba627c7b6e5654a6de9a1c529049",
-    "changelog_bitcoinonly": "* Fix persistent word when going to previous word during recovery process.\n* Fix display orientation\xa0*south*."
+    "changelog_bitcoinonly": "* Fix persistent word when going to previous word during recovery process.\n* Fix display orientation south."
   }
 ]
