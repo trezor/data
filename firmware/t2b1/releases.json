@@ -6,7 +6,7 @@
     "min_firmware_version": [2, 6, 1],
     "min_bootloader_version": [2, 1, 1],
     "bootloader_version": [2, 1, 4],
-    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR"],
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "it-IT", "pt-BR", "tr-TR"],
     "url": "data/firmware/t2b1/trezor-t2b1-2.8.0.bin",
     "url_bitcoinonly": "data/firmware/t2b1/trezor-t2b1-2.8.0-bitcoinonly.bin",
     "fingerprint": "cf3ce230a69a681199f74cf6ac8c6c431f8fa7e0d0183437f93c5cc029fbd155",
