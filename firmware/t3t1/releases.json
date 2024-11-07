@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 8, 5],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 6],
+    "min_firmware_version": [2, 7, 2],
+    "bootloader_version": [2, 1, 9],
+    "firmware_revision": "a61e783448043760a7c925e017bd08a4673a61c8",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "it-IT", "pt-BR", "tr-TR"],
+    "url": "data/firmware/t3t1/trezor-t3t1-2.8.5.bin",
+    "fingerprint": "1b6ff3ae72aac4410782b89a67261b1db2f66b03e2fe3fe25f0508d223b4b668",
+    "changelog": "* Simplified UI of Cardano flows initiated by Trezor Suite.\n* New EVM call contract flow UI.\n* Show account info in ETH send/stake flow.\n* Fix ETH account number detection.\n* Fix XPUB confirmed success screen title.\n* Display menu items on two lines when one line is not enough.\n* Fixed missing footer page hints in info about remaining shares in super-shamir recovery.\n* Add instruction to Swipe up after changing brightness.",
+    "url_bitcoinonly": "data/firmware/t3t1/trezor-t3t1-2.8.5-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "a2512b2e19a005c9ef92045c5adbd13b64597c7910752a5e68c57661da08b3c0",
+    "changelog_bitcoinonly": "* Fix XPUB confirmed success screen title.\n* Display menu items on two lines when one line is not enough.\n* Fixed missing footer page hints in info about remaining shares in super-shamir recovery.\n* Add instruction to Swipe up after changing brightness."
+  },
+  {
+    "required": false,
     "version": [2, 8, 3],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 6],
