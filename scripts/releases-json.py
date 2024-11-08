@@ -145,8 +145,11 @@ def parse_changelog(
 
 
 def find_revision(version: str) -> str:
-    FIRMWARE_TAG_QUERY = (
+    FIRMWARE_REF_TAG_QUERY = (
         "https://api.github.com/repos/trezor/trezor-firmware/git/refs/tags/{tag}"
+    )
+    FIRMWARE_SIGNED_TAG_QUERY = (
+        "https://api.github.com/repos/trezor/trezor-firmware/git/tags/{sha}"
     )
 
     if version.startswith("2"):
@@ -154,9 +157,17 @@ def find_revision(version: str) -> str:
     else:
         tag = f"trezor-suite/v{version}"
 
-    r = requests.get(FIRMWARE_TAG_QUERY.format(tag=tag))
+    r = requests.get(FIRMWARE_REF_TAG_QUERY.format(tag=tag))
     r.raise_for_status()
     data = r.json()
+
+    # signed tags have one more level of indirection
+    if data["object"]["type"] == "tag":
+        r = requests.get(FIRMWARE_SIGNED_TAG_QUERY.format(sha=data["object"]["sha"]))
+        r.raise_for_status()
+        data = r.json()
+
+    assert data["object"]["type"] == "commit"
     return data["object"]["sha"]
 
 
