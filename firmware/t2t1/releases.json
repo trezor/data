@@ -7,7 +7,7 @@
         "min_firmware_version": [2, 0, 8],
         "bootloader_version": [2, 1, 6],
         "firmware_revision": "632b9561559b7ab6824bb7eeac072874e07b7b82",
-        "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR"],
+        "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "it-IT", "pt-BR"],
         "url": "data/firmware/t2t1/trezor-t2t1-2.8.1.bin",
         "fingerprint": "d3af84a212d32785449ca6575e3cf2a641920b353a82dec9f059083ea5d4b149",
         "changelog": "* Fixed displaying of a progress indicator for the formatting operation.\n* Improve precision of PIN validation countdown.\n* Solana: Improved support for AToken Create operation.",
