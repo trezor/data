@@ -1,6 +1,22 @@
 [
     {
         "required": false,
+        "version": [1, 13, 0],
+        "bootloader_version": [1, 12, 1],
+        "min_bridge_version": [2, 0, 25],
+        "min_firmware_version": [1, 12, 0],
+        "min_bootloader_version": [1, 12, 0],
+        "url": "data/firmware/t1b1/trezor-t1b1-1.13.0.bin",
+        "url_bitcoinonly": "data/firmware/t1b1/trezor-t1b1-1.13.0-bitcoinonly.bin",
+        "fingerprint": "356433bd9de6cb564bf7778fc5de73c56197459523358f267e9235af9e1ce46d",
+        "fingerprint_bitcoinonly": "253042fb209c78e02482c645b16cc9894c19124e9c9c0c1051b3c68b6e7c700b",
+        "firmware_revision": "592590cf66a9b62dfeee7e4d2afb6e01005e5b2c",
+        "notes": "",
+        "changelog": "* Multisig-related changes.\n* Reworked PIN processing.\n* Allow showing XPUB using a QR code.",
+        "changelog_bitcoinonly": "* Multisig-related changes.\n* Reworked PIN processing.\n* Allow showing XPUB using a QR code."
+    },
+    {
+        "required": false,
         "version": [1, 12, 1],
         "bootloader_version": [1, 12, 1],
         "min_bridge_version": [2, 0, 25],
@@ -261,7 +277,7 @@
         "fingerprint": "019e849c1eb285a03a92bbad6d18a328af3b4dc6999722ebb47677b403a4cd16",
         "firmware_revision": "0a6a5f85729e663fbeae5ce9e5745918ff6f9d5d",
         "changelog": "* Fix fault when using the device with no PIN* Fix OMNI transactions parsing"
-        
+
     },
     {
         "required": false,
