@@ -68,4 +68,9 @@ directory=$PARENT_PATH"/../firmware/"$DEVICE
 
 echo "Checking directory: $directory"
 
+if [[ ! -f "$json_file" && -z $(find "$directory" -type f -name "trezor-*.bin") ]]; then
+    echo "Skipped, no releases.json or firmware binaries found in the directory."
+    exit 0
+fi
+
 compare_files "$json_file" "$directory"

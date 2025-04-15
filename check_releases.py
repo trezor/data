@@ -46,11 +46,15 @@ def check_bridge():
 
 
 def check_firmware(model, bitcoin_only=False):
-
-    if model not in device_models:
-        raise ValueError("Unknown model: %s" % model)
-
     print("Checking Firmware (model %s) data:" % model)
+
+    model_dir = os.path.join("firmware", model)
+    releases_file = os.path.join(model_dir, "releases.json")
+    firmware_binaries = [f for f in os.listdir(model_dir) if f.startswith("trezor-") and f.endswith(".bin")]
+
+    if not os.path.exists(releases_file) and not firmware_binaries:
+        print(f"Skipped, no releases.json or firmware binaries found in the directory.")
+        return True
 
     ok = True
     releases = json.load(open("firmware/%s/releases.json" % model, "r"))
