@@ -25,7 +25,7 @@ extract_file_paths_from_json() {
 list_files_in_directory() {
   local dir="$1"
   find "$dir" -type f -name "*.bin" -exec basename {} \; | sort \
-    | grep -v "trezor-inter-" | grep -v "trezor-t1tb-inter-" # Filter out Intermediary firmwares
+    | grep -v "trezor-inter-" | grep -v "trezor-t1b1-inter-" # Filter out Intermediary firmwares
 }
 
 compare_files() {
