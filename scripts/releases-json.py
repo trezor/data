@@ -66,7 +66,7 @@ RELEASES = "releases.json"
 
 BOOTLOADER_MIN = {
     "T3T1": (2, 1, 6),
-    "T3B1": (2, 1, 8),
+    "T3B1": (2, 1, 7),
     "T2T1": (2, 0, 0),
     "T2B1": (2, 1, 1),
 }
