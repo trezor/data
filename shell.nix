@@ -14,5 +14,7 @@ stdenv.mkDerivation {
     git-lfs
     git
     python39
+    bun # for typescript scripts
+    nodePackages.prettier # for formatting json and typescript
   ];
 }
