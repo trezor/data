@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "version": [1, 5, 2],
+  "min_bridge_version": [1, 1, 5],
+  "min_bootloader_version": [1, 0, 0],
+  "min_firmware_version": [1, 0, 0],
+  "firmware_revision": "e4cc08775fc9c204f295442f930326eb7877f2d4",
+  "translation": {
+    "cs-CZ": "firmware/translations/t1b1/translation-T1B1-cs-CZ-1.5.2.bin",
+    "de-DE": "firmware/translations/t1b1/translation-T1B1-de-DE-1.5.2.bin",
+    "es-ES": "firmware/translations/t1b1/translation-T1B1-es-ES-1.5.2.bin",
+    "fr-FR": "firmware/translations/t1b1/translation-T1B1-fr-FR-1.5.2.bin",
+    "it-IT": "firmware/translations/t1b1/translation-T1B1-it-IT-1.5.2.bin",
+    "pt-BR": "firmware/translations/t1b1/translation-T1B1-pt-BR-1.5.2.bin"
+  },
+  "url": "firmware/t1b1/universal/t1b1-1.5.2-universal.bin",
+  "fingerprint": "99f71379dec893fbe109832a1150f338660be686fe6b4903ff10ff751ba4e448",
+  "changelog": "* clean memory on start\n* fix storage import from older versions"
+}
