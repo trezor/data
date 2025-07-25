@@ -1,0 +1,20 @@
+{
+  "required": false,
+  "version": [1, 10, 2],
+  "min_bridge_version": [2, 0, 25],
+  "min_bootloader_version": [1, 5, 0],
+  "min_firmware_version": [1, 6, 2],
+  "bootloader_version": [1, 10, 0],
+  "firmware_revision": "24bb4016388fca4b998285b95dcd408f4ed0bff6",
+  "translation": {
+    "cs-CZ": "firmware/translations/t1b1/translation-T1B1-cs-CZ-1.10.2.bin",
+    "de-DE": "firmware/translations/t1b1/translation-T1B1-de-DE-1.10.2.bin",
+    "es-ES": "firmware/translations/t1b1/translation-T1B1-es-ES-1.10.2.bin",
+    "fr-FR": "firmware/translations/t1b1/translation-T1B1-fr-FR-1.10.2.bin",
+    "it-IT": "firmware/translations/t1b1/translation-T1B1-it-IT-1.10.2.bin",
+    "pt-BR": "firmware/translations/t1b1/translation-T1B1-pt-BR-1.10.2.bin"
+  },
+  "url": "firmware/t1b1/universal/t1b1-1.10.2-universal.bin",
+  "fingerprint": "99707b90a504f7e402f26c3d59cbbdacbc52754cebcce79cc47be528fc889338",
+  "changelog": "* Security improvements."
+}
