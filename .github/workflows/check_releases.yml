@@ -22,6 +22,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Check releases.json files changes
         run: ./scripts/run-releases-json-for-all-devices.sh
+      - name: Check presence of binaries defined in releases JSONs 
+        run: ./scripts/check-firmware-presence-in-releases-json-separated.sh
 
   releases-revision-checks:
     name: Check firmware releases revisions
