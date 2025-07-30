@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.3.5.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.3.5.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.3.5-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.3.5.bin",
   "fingerprint": "c0a6cacfed5c7a691314919c22307c29fbe9522071a9a28669769c014762d386",
   "changelog": "* Replacement transaction signing for replace-by-fee and PayJoin.\n* Support for Output Descriptors export.\n* Paginated display for signing/verifying long messages.\n* Show Ypub/Zpub correctly for multisig GetAddress.\n* Show amounts in mBTC, uBTC and sat denominations."
 }

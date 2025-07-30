@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.8.9.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.8.9.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.8.9-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.8.9-bitcoinonly.bin",
   "fingerprint": "e5878fa067df9d1256cdcd86f10869930d85e090c39f807c23f8845472e8d995",
   "changelog": "* Ability to cancel recovery on word count selection screen.\n* New UI for confirming long messages."
 }

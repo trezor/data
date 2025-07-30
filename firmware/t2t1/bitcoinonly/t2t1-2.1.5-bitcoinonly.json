@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.1.5.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.1.5.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.5-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.5-bitcoinonly.bin",
   "fingerprint": "9de90d9f8ca12506f3b9a4cbe7616294144d965d67daa3a03bfe6c0b74a44843",
   "changelog": "* Fix UI for Shamir with 33 words"
 }

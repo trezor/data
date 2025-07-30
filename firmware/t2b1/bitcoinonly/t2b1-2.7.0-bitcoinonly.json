@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2b1/translation-t2b1-it-IT-2.7.0.bin",
     "pt-BR": "firmware/translations/t2b1/translation-t2b1-pt-BR-2.7.0.bin"
   },
-  "url": "firmware/t2b1/universal/t2b1-2.7.0-bitcoinonly.bin",
+  "url": "firmware/t2b1/trezor-t2b1-2.7.0-bitcoinonly.bin",
   "fingerprint": "bb91489a4790b3668e2f5d574a729a0f43009510550fecb5e04c0937d355b2cf",
   "changelog": "* Add translations capability. \n* Add loader to homescreen when locking the device. \n* Allow for going back to previous word in recovery process. \n* Display descriptors for BTC Taproot public keys. \n* Add missing semicolon character to the passphrase entry."
 }

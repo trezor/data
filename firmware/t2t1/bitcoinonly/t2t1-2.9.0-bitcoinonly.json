@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.9.0.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.9.0.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.9.0-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.9.0-bitcoinonly.bin",
   "fingerprint": "4cbaa64a0c9191745e8452245f235c00b053ccd157085e640c52ed9c27ccda19",
   "changelog": "* Remove Turkish language support.\n* Don't enter/exit menu via horizontal swipe.\n* Fixed tutorial-related translations.\n* \"Enter passphrase on host\" dialog is now not shown immediately after accessing Suite."
 }

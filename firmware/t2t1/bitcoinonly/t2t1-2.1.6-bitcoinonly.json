@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.1.6.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.1.6.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.6-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.6-bitcoinonly.bin",
   "fingerprint": "4e7f0f95d71631159b9e873f36a812c93a10eca1fad5f38c78ae7fbe4c1f6ed4",
   "changelog": "* Small code improvements."
 }

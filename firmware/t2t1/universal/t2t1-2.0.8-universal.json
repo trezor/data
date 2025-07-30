@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.0.8.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.0.8.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.0.8-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.0.8.bin",
   "fingerprint": "642b6215bda981f8eacafee34dbee5cdeee7d47d49f605bbe2828a8d9b79813d",
   "changelog": "* Monero support\n* Cardano support\n* Stellar support\n* Ripple support\n* Tezos support\n* Decred support\n* Groestlcoin support\n* Zencash support\n* Zcash sapling hardfork support\n* Implemented seedless setup"
 }

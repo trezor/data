@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.1.4.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.1.4.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.4-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.4.bin",
   "fingerprint": "820611a92605b1ccc612b9bf8550617aec6962bd2484fcb6ae4792bc498654e4",
   "changelog": "* Shamir Backup with Recovery persistence\n* Touchscreen freeze fix\n* Fix display of non-divisible OMNI amounts"
 }

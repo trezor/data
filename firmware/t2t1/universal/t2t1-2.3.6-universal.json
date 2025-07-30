@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.3.6.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.3.6.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.3.6-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.3.6.bin",
   "fingerprint": "0efa3ba6135caea7693d145d60441eeb46283fe0b8b1fd59a04af33a638ad237",
   "changelog": "* Add compatibility paths for Unchained Capital"
 }

@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.1.0.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.1.0.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.0-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.0.bin",
   "fingerprint": "bb5b0308807b45d41d1e2ab66a468152997ad69a01099789d8a35e464cde999f",
   "changelog": "* Security improvements\n* Upgraded to new storage format\n* Ripple, Stellar, Cardano and NEM fixes\n* New coins: ATS, AXE, FLO, GIN, KMD, NIX,\n  PIVX, REOSC, XPM, XSN, ZCL\n* New ETH tokens"
 }

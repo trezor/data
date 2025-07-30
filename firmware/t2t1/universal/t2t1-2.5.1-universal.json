@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.5.1.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.5.1.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.5.1-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.5.1.bin",
   "fingerprint": "782d4934897018cac779eebb0d7c66e21da7789b9cd35e1f99f097bdfd9b7d33",
   "changelog": "* Support Electrum signatures in VerifyMessage.\n* Support Cardano Alonzo-era transactions (Plutus).\n* Bitcoin bech32 addresses QR codes have bigger pixels which are easier to scan.\n* EIP-1559 transaction correctly show final Hold to Confirm screen.\n* Trezor will refuse to sign UTXOs that do not match the provided derivation path (e.g., transactions belonging to a different wallet, or synthetic transaction inputs).\n* Zcash v5 transaction format."
 }

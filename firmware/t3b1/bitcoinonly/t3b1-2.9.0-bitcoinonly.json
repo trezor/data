@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t3b1/translation-t3b1-it-IT-2.9.0.bin",
     "pt-BR": "firmware/translations/t3b1/translation-t3b1-pt-BR-2.9.0.bin"
   },
-  "url": "firmware/t3b1/universal/t3b1-2.9.0-bitcoinonly.bin",
+  "url": "firmware/t3b1/trezor-t3b1-2.9.0-bitcoinonly.bin",
   "fingerprint": "ef16d4e2529cbf4dd6a45f9b15177883873819dd886134dc5986cb5b71c5556f",
   "changelog": "* Changed unknown contract address warning screen.\n* Remove Turkish language support.\n* Fix tutorial-related translations.\n* Fix horizontal scroll of the title when setting Wipe code.\n* Fix screen title when confirming installation.\n* \"Enter passphrase on host\" dialog is now not shown immediately after accessing Suite."
 }

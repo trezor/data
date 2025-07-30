@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.0.6.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.0.6.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.0.6-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.0.6.bin",
   "fingerprint": "4eccabf2fd7e121ed0da657c064a65c5694402497e60ea2ac2dcf1e118db9cc6",
   "changelog": "* Fix layout for Ethereum transactions\n* Fix public key generation for SSH and GPG\n* Add special characters to passphrase keyboard"
 }

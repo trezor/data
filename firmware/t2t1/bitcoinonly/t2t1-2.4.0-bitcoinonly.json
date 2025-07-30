@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.4.0.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.4.0.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.4.0-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.4.0-bitcoinonly.bin",
   "fingerprint": "89c91287ab7a9cd3ec246b6822a0d04b7d40401abef706cccafbb7b98bd6a3d7",
   "changelog": "* Locking the device by holding finger on the homescreen.\n* Support PIN of unlimited length.\n* Allow decreasing the output value in RBF transactions.\n* Reduce memory fragmentation.\n* Improve wording when showing multisig XPUBs."
 }

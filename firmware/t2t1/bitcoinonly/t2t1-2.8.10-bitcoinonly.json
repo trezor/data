@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.8.10.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.8.10.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.8.10-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.8.10-bitcoinonly.bin",
   "fingerprint": "c280cfbe83b261ef30c64eb58f55538b3cceee01ba7d8f57d6e8cbf92527066b",
   "changelog": "* Replaced \"next page\" icon with \"...\" ellipsis when confirming long message.\n* Fixed upgrade confirmation text overflow.\n* Allow firmware upgrade even if language change failed."
 }

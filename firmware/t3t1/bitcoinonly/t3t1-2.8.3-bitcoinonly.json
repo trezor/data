@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t3t1/translation-t3t1-it-IT-2.8.3.bin",
     "pt-BR": "firmware/translations/t3t1/translation-t3t1-pt-BR-2.8.3.bin"
   },
-  "url": "firmware/t3t1/universal/t3t1-2.8.3-bitcoinonly.bin",
+  "url": "firmware/t3t1/trezor-t3t1-2.8.3-bitcoinonly.bin",
   "fingerprint": "9eaf99a9420d2a3b9377102eb06b938f5a1886ecb06cccde7fd3cb7a39e1abd7",
   "changelog": "* Added reassuring screen when entering empty passphrase on device.\n* Fix persistent word when going to previous word during recovery process.\n* Added missing info about remaining shares in super-shamir recovery."
 }

@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.1.6.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.1.6.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.6-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.6.bin",
   "fingerprint": "e2032ad84108a85d4014d477b955b9181a1a56e6f222ef21bb7d47b503a02f0b",
   "changelog": "* Super Shamir (with Groups)\n* FIDO2 support with credential management"
 }

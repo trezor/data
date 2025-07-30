@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.4.1.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.4.1.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.4.1-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.4.1-bitcoinonly.bin",
   "fingerprint": "fce4503fcadb68dc72144a562ec0a59e7c8d083e403e01bfc4c584161d79f596",
   "changelog": "* Security and major perfomance improvements.\n* Fix red screen on shutdown."
 }

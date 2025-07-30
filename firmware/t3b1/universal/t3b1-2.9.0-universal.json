@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t3b1/translation-T3B1-it-IT-2.9.0.bin",
     "pt-BR": "firmware/translations/t3b1/translation-T3B1-pt-BR-2.9.0.bin"
   },
-  "url": "firmware/t3b1/universal/t3b1-2.9.0-universal.bin",
+  "url": "firmware/t3b1/trezor-t3b1-2.9.0.bin",
   "fingerprint": "3fd121e6cd9d3179e8dd8a164523a2405fac04c734877c01f90f734c9d836883",
   "changelog": "* Human readable Ethereum “approve”/”revoke” flow.\n* Changed unknown contract address warning screen.\n* Remove BNB Beacon Chain support.\n* Remove Turkish language support.\n* Fix tutorial-related translations.\n* Fix horizontal scroll of the title when setting Wipe code.\n* Known Solana tokens' don’t need to be confirmed.\n* Fix screen title when confirming installation.\n* \"Enter passphrase on host\" dialog is now not shown immediately after accessing Suite."
 }

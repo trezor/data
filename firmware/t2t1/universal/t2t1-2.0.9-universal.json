@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.0.9.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.0.9.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.0.9-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.0.9.bin",
   "fingerprint": "87be93d6966e7a9eff78dc7b434d1a138ec8d1ee0300882d16f90b606f3a806b",
   "changelog": "* Small Monero and Segwit bugfixes"
 }
