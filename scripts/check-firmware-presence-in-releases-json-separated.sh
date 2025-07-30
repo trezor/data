@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-DEBUG=0
-
 PARENT_DIR="firmware"
 EXCLUDED_DIR="translations"
 
