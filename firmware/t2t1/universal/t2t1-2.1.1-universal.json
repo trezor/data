@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.1.1.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.1.1.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.1-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.1.bin",
   "fingerprint": "1b3166a878658fcd2ff82c7ac9a2587da544fd105f678cc7b4d41cba5a8d4c01",
   "changelog": "* Hotfix for touchscreen freeze\n* Don't rotate the screen via swipe gesture\n* Set screen rotation via user setting\n* More strict path validations\n* Display non-zero locktime values\n* EOS support\n* Monero UI fixes\n* Speed and memory optimizations"
 }

@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.3.3.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.3.3.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.3.3-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.3.3-bitcoinonly.bin",
   "fingerprint": "dda77cd7893a5f413f8fc4b2f44d1d43ed4b26e8ced5e6e578cc6b302c1a2310",
   "changelog": "* Advances the Passphrase feature by showing the entered passphrase on the Trezor screen before opening the wallet.\n* Introduces a hard limit on transaction fees to prevent accidentally paying extra hefty fees (the limit can be manually disabled).\n* Fixes smaller issues with the user interface, customization, and more."
 }

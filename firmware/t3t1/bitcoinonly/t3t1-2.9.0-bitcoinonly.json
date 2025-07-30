@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t3t1/translation-t3t1-it-IT-2.9.0.bin",
     "pt-BR": "firmware/translations/t3t1/translation-t3t1-pt-BR-2.9.0.bin"
   },
-  "url": "firmware/t3t1/universal/t3t1-2.9.0-bitcoinonly.bin",
+  "url": "firmware/t3t1/trezor-t3t1-2.9.0-bitcoinonly.bin",
   "fingerprint": "6726de011043c01eafbe153f869725a1544f63e15ca24f5530aecadb8ecfe1be",
   "changelog": "* Adjust warning screen when sending from multiple accounts at once.\n* Show success screen after sending address, public key or signature to host.\n* Remove Turkish language support.\n* Don't enter/exit menu via horizontal swipe.\n* Fix tutorial-related translations.\n* Fix issues with multishare backup creation.\n* \"Enter passphrase on host\" dialog is now not shown immediately after accessing Suite."
 }

@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t3b1/translation-t3b1-it-IT-2.8.3.bin",
     "pt-BR": "firmware/translations/t3b1/translation-t3b1-pt-BR-2.8.3.bin"
   },
-  "url": "firmware/t3b1/universal/t3b1-2.8.3-bitcoinonly.bin",
+  "url": "firmware/t3b1/trezor-t3b1-2.8.3-bitcoinonly.bin",
   "fingerprint": "070a61b2a8653e4f9857810b6610d0a15f76ba627c7b6e5654a6de9a1c529049",
   "changelog": "* Fix persistent word when going to previous word during recovery process.\n* Fix display orientation south."
 }

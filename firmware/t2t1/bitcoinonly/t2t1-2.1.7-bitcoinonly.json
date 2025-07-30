@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.1.7.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.1.7.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.7-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.7-bitcoinonly.bin",
   "fingerprint": "fd92ac173a2cf93cc07ced3287e07800ed10466dc38c0c7240d9b20c689dd1d1",
   "changelog": "* Super Shamir (with Groups)\n* Fix low memory issue"
 }

@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2b1/translation-t2b1-it-IT-2.6.4.bin",
     "pt-BR": "firmware/translations/t2b1/translation-t2b1-pt-BR-2.6.4.bin"
   },
-  "url": "firmware/t2b1/universal/t2b1-2.6.4-bitcoinonly.bin",
+  "url": "firmware/t2b1/trezor-t2b1-2.6.4-bitcoinonly.bin",
   "fingerprint": "013d595fc621c12324afd90721c6a37d055d853f6af54d5432e27e6a425656dd",
   "changelog": "* Resolved an issue related to the invalid encoding of signatures from the Optiga chip."
 }

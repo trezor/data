@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t3t1/translation-T3T1-it-IT-2.9.0.bin",
     "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.9.0.bin"
   },
-  "url": "firmware/t3t1/universal/t3t1-2.9.0-universal.bin",
+  "url": "firmware/t3t1/trezor-t3t1-2.9.0.bin",
   "fingerprint": "9daf6fd2264cf0ef7f60ebad20cdfb72c3f8c23d5dc2e0096db2584f601489be",
   "changelog": "* Human readable Ethereum “approve”/”revoke” flow.\n* Adjust warning screen when sending from multiple accounts at once.\n* Show success screen after sending address, public key or signature to host.\n* Remove BNB Beacon Chain support.\n* Remove Turkish language support.\n* Don't enter/exit menu via horizontal swipe.\n* Fix tutorial-related translations.\n* Fix issues with multishare backup creation.\n* Known Solana tokens' don’t need to be confirmed.\n* \"Enter passphrase on host\" dialog is now not shown immediately after accessing Suite."
 }

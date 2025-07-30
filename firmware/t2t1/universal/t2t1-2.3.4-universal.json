@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.3.4.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.3.4.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.3.4-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.3.4.bin",
   "fingerprint": "58b51a6587993965979a744f8fcd5c4761f11ce4bec6b059a5d56bd0987d6658",
   "changelog": "* This firmware only contains the changes needed after the latest Monero update (HF13) by introducing support for the CLSAG transactions."
 }

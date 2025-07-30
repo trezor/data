@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.0.5.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.0.5.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.0.5-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.0.5.bin",
   "fingerprint": "851172eab96c07bf9efb43771cb0fd14dc0320a68de047132c7bd787a1ad64e9",
   "changelog": "* First public release"
 }

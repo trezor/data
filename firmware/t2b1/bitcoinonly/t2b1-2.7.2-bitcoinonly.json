@@ -14,7 +14,7 @@
     "it-IT": "firmware/translations/t2b1/translation-t2b1-it-IT-2.7.2.bin",
     "pt-BR": "firmware/translations/t2b1/translation-t2b1-pt-BR-2.7.2.bin"
   },
-  "url": "firmware/t2b1/universal/t2b1-2.7.2-bitcoinonly.bin",
+  "url": "firmware/t2b1/trezor-t2b1-2.7.2-bitcoinonly.bin",
   "fingerprint": "5b6e312430de9db6ad3a843e1ba311f8cff9c6a691c20c0e69b711451a729f40",
   "changelog": "* Introducing repeated backups. \n* Multi-share backups can now have any number of shares."
 }

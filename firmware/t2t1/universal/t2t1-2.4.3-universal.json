@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.4.3.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.4.3.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.4.3-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.4.3.bin",
   "fingerprint": "a07f69d8d2065006a79c6b5636bd046496dbcb3820b41f1d604d8a4605ca4056",
   "changelog": "* Support Taproot.\n* Show address confirmation in SignMessage.\n* Support for advanced Cardano transactions and different derivations for compatibility.\n* Ethereum support for EIP712 (signing typed data)."
 }

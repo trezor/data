@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.4.0.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.4.0.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.4.0-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.4.0.bin",
   "fingerprint": "d90265ee6d7d499c7d938b5322f71f27042da8a6fdaed54c224d31b65e868def",
   "changelog": "* Locking the device by holding finger on the homescreen.\n* Support PIN of unlimited length.\n* Allow decreasing the output value in RBF transactions.\n* Reduce memory fragmentation.\n* Update FIDO icons.\n* Improve wording when showing multisig XPUBs."
 }

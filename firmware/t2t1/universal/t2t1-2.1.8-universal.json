@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.1.8.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.1.8.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.1.8-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.1.8.bin",
   "fingerprint": "8a5fa12132651b6e33344fd025d0d90885f5cc1c342427ebcea4f0ae98b50d8c",
   "changelog": "* Support Tezos 005-BABYLON hardfork\n* Show XPUBs in GetAddress for multisig\n* Security improvements"
 }

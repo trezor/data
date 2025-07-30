@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-t2t1-it-IT-2.4.3.bin",
     "pt-BR": "firmware/translations/t2t1/translation-t2t1-pt-BR-2.4.3.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.4.3-bitcoinonly.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.4.3-bitcoinonly.bin",
   "fingerprint": "1744efccabd479526392b281b7e0fc7aa2b4ecb454007dff7ca8c1f8171fad90",
   "changelog": "* Support Taproot.\n* Show address confirmation in SignMessage."
 }

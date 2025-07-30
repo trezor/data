@@ -13,7 +13,7 @@
     "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.4.2.bin",
     "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.4.2.bin"
   },
-  "url": "firmware/t2t1/universal/t2t1-2.4.2-universal.bin",
+  "url": "firmware/t2t1/trezor-t2t1-2.4.2.bin",
   "fingerprint": "54ccf155510b5292bd17ed748409d0d135112e24e62eb74184639460beecb213",
   "changelog": "* Support for Ethereum EIP1559 transactions.\n* Re-enabled Firo support.\n* Memory optimization of BTC signing and CBOR decoding.\n* Support for large Cardano transactions.\n* Remove Lisk."
 }
