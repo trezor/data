@@ -43,9 +43,32 @@ for TARGET_DIR in "${TARGET_DIRS[@]}"; do
         if [ -f "$URL_PATH" ]; then
             echo "OK - File exists at '$URL_PATH' (from $JSON_FILE)"
         else
-            echo "NOT FOUND - File does not exist at '$URL_PATH' (from $JSON_FILE)"
             ((MISSING_FILES_COUNT++))
+            echo "NOT FOUND - File does not exist at '$URL_PATH' (from $JSON_FILE)"
         fi
+
+
+        if ! jq -e '.translations | objects' "$JSON_FILE" > /dev/null; then
+            echo "Error: Key 'translations' not found or is not a JSON object in $JSON_FILE."
+            exit 1
+        fi
+
+        echo "Checking for translation files..."
+
+        while IFS= read -r filepath; do
+            if [ -z "$filepath" ] || [ "$filepath" == "null" ]; then
+                echo "WARNING: Found a null or empty path in JSON."
+                ((MISSING_FILES_COUNT++))
+                continue
+            fi
+
+            if [ -f "$filepath" ]; then
+                echo "OK - File exists at '$filepath'"
+            else
+                ((MISSING_FILES_COUNT++))
+                echo "NOT FOUND - Translation file does not exist at '$filepath'"
+            fi
+        done < <(jq -r '.translations.[]' "$JSON_FILE")
     done
     echo ""
 done
