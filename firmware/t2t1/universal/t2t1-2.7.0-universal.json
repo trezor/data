@@ -10,9 +10,7 @@
     "cs-CZ": "firmware/translations/t2t1/translation-T2T1-cs-CZ-2.7.0.bin",
     "de-DE": "firmware/translations/t2t1/translation-T2T1-de-DE-2.7.0.bin",
     "es-ES": "firmware/translations/t2t1/translation-T2T1-es-ES-2.7.0.bin",
-    "fr-FR": "firmware/translations/t2t1/translation-T2T1-fr-FR-2.7.0.bin",
-    "it-IT": "firmware/translations/t2t1/translation-T2T1-it-IT-2.7.0.bin",
-    "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.7.0.bin"
+    "fr-FR": "firmware/translations/t2t1/translation-T2T1-fr-FR-2.7.0.bin"
   },
   "url": "firmware/t2t1/trezor-t2t1-2.7.0.bin",
   "fingerprint": "53a645218792e413ad06c27320b7d1adc944b690ce831301bbf11c30352d3278",
