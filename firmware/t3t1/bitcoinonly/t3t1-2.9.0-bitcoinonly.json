@@ -7,12 +7,12 @@
   "bootloader_version": [2, 1, 10],
   "firmware_revision": "a09e6f04d4204607d821d9b742dcf7ffe9c4e2f5",
   "translations": {
-    "cs-CZ": "firmware/translations/t3t1/translation-t3t1-cs-CZ-2.9.0.bin",
-    "de-DE": "firmware/translations/t3t1/translation-t3t1-de-DE-2.9.0.bin",
-    "es-ES": "firmware/translations/t3t1/translation-t3t1-es-ES-2.9.0.bin",
-    "fr-FR": "firmware/translations/t3t1/translation-t3t1-fr-FR-2.9.0.bin",
-    "it-IT": "firmware/translations/t3t1/translation-t3t1-it-IT-2.9.0.bin",
-    "pt-BR": "firmware/translations/t3t1/translation-t3t1-pt-BR-2.9.0.bin"
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.9.0.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.9.0.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.9.0.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.9.0.bin",
+    "it-IT": "firmware/translations/t3t1/translation-T3T1-it-IT-2.9.0.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.9.0.bin"
   },
   "url": "firmware/t3t1/trezor-t3t1-2.9.0-bitcoinonly.bin",
   "fingerprint": "6726de011043c01eafbe153f869725a1544f63e15ca24f5530aecadb8ecfe1be",
