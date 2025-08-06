@@ -14,5 +14,6 @@ stdenv.mkDerivation {
     git-lfs
     git
     python39
+    shellcheck
   ];
 }
