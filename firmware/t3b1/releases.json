@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 9, 1],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 7],
+    "min_firmware_version": [2, 8, 3],
+    "bootloader_version": [2, 1, 10],
+    "firmware_revision": "acd56d0113a547e9b5983510b0ce9de079e30e05",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3b1/trezor-t3b1-2.9.1.bin",
+    "fingerprint": "8a52e82d21a151cfa542b5ca0e265e9b4997f481365ff1b2bb047b45fac3a167",
+    "changelog": "* Add support for signing arbitrary messages in Cardano.\n* Add support for displaying the message hash when signing Ethereum EIP-712 typed data.\n* Allow using Ethereum mainnet addresses on all non-Ethereum networks.\n* Improved Stellar transaction signing interface for a more streamlined user experience.\n* Implement multi-item menus for Solana staking.\n* Make space between value and unit non-breakable.\n* Fixed Solana signature failure.\n* Fix crash on first boot.\n* Other small improvements and bug fixes.",
+    "url_bitcoinonly": "data/firmware/t3b1/trezor-t3b1-2.9.1-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "7588c0d41586268562837b8b302b8a4825fbec24ef94921e55ce820ff6dc2da6",
+    "changelog_bitcoinonly": "* Make space between value and unit non-breakable.\n* Fix crash on first boot.\n* Other small improvements and bug fixes."
+  },
+  {
+    "required": false,
     "version": [2, 9, 0],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 7],
