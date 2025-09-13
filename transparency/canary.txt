@@ -8,7 +8,7 @@ Hash: SHA256
 The Trezor core developers who have digitally signed this file [1]
 state the following:
 
-1. The date of issue of this canary is May 12th, 2025.
+1. The date of issue of this canary is September 13th, 2025.
 
 2. The Trezor Project has never:
 
@@ -17,7 +17,7 @@ state the following:
    b) introduced any backdoors to their software and/or hardware
 
 3. We plan to publish the next of these canary statements in the first
-two weeks of September 2025. Special note should be taken if no new canary
+two weeks of March 2026. Special note should be taken if no new canary
 is published by that time or if the list of statements changes without
 plausible explanation.
 
@@ -47,9 +47,9 @@ for any of the statements made here.
 
 ## Proof of freshness
 
-Block at depth 896430 (2025-05-12 16:12:44 UTC) in the Bitcoin blockchain:
+Block at depth 914550 (2025-09-13 22:05:03 UTC) in the Bitcoin blockchain:
 
-00000000000000000001b6216d0339144356dae020143d3eb8960537c2a2cb92
+000000000000000000020fd5bceefcfd23c3921225574fd4c2814cbc4f3d51e4
 
 ## Footnotes
 
@@ -60,17 +60,17 @@ digital signatures!
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEhuZ5L8J7/UeIYMEQkfOzObmgKj0FAmgiI0wACgkQkfOzObmg
-Kj1aig/+Kf0LLXYUeToN+IwvZNgu3bKdD4ZZ8ql0e/mC+CK6dfYWxpgcAYeCh2pe
-GS1DRmDVR8AIR1MWxkgnbpFvLQK4GeJWx93XB7zCHrgn6Ikk8L+Pv8L2mez0/0Vi
-9+8F9zqY4AlqgFPlKLbeCWJcybu67UqSr78Vg9YHEp2tmL+LTXjNbTvroXmr+Mhi
-QcZ0Z0QgQKbA/E/QlrZfE9atvRIlzvAFq9I08zbQ74VbqEzCH9/Id8lfr8rCRC+T
-pMhVDJycedfrevp2MYGP7aqNk8WvWDfUosScTpKquJUZeB3OE9SjqccxerVcGP/Y
-/7eCQDxsHO9hSAaBm4QWZFt+gHnEPSArbY77JoX9jeeNAQDT3V+XKXhjqfGgW57L
-cYo2dYtXcLCpEE4TtfJ49t/G4GPMSa2VMLCI3v6VI7D2qtHYmANg/Sr1uNN0vGZD
-6I59asTmVQZH7xt7SEDiPCjx8G1KdOIRuPgVJ9rW4VEekzdeF9WiGHr3bM6y5R5e
-XMHWKHF8prdDpEam5msvOiPt74ygXI88o8J+nr73Vc0swCuNJWV2UOaudJ0zNjqS
-2WNnKqnZL5DFXaW98I5/7Csv7SWwc+N/Mz1BmPr7+HxTxucr3kMb5l1mOpSx089u
-RWC9Mfgt3dk3Sp3OTnLP/4itzyq4m8XiLpY7T3e7a0xRHfWGQWs=
-=GYwM
+iQIzBAEBCAAdFiEEhuZ5L8J7/UeIYMEQkfOzObmgKj0FAmjF8u0ACgkQkfOzObmg
+Kj2RCA//RJlf3bCGT2SzzMyNV5/T3tXtihIIDn0chCHagjgx7Gq9zCQTSNk/WWPd
+LNGxuUtUVN5D+EXIPhhGfPT+RHIVYiVaWqXgQaJJmU3fbPV3n30/y+tRur3IQVqM
+IIqN++8yPiKzlHE6R4krjoBJEEB8BVFBkBq5/wRGcnrRnqZHAVWSRv8ENUj1wUut
+7m30OTYQx832brk2xArEqjqqAWB9s3JVG+6WuoQ1SyHaTWOxzzeR1hLT9yIEQG0O
+Ku04fD5kqp4HmjJF079x8Rwc5uIRTxNMNWZ/p6pPm2W+YeHarHbSJ1HfUnrOK5YR
+m+6jPSZhBjWlfs8QV/HSZ+po0sJVqcI8+FPGZVtmFg0Wi99ps4lJW2pN4wNs9aHE
+dQnYVOshCqd3i93SMDBa2OFFMnPnta62NJtj5X23aHbwfMjretzNOIPZEY+z9wFn
+tO+3SRm7EDvbagM2GcZbA/irIaanbMZkLm3M1J87ENMzKrKOjVfXesW1K71SlCAt
+6OSLNok8sMVtGNu6qFYdYkmdVmzGZRDJKUjiACEPRgUucKiCPc9E68EE/KlJfw93
+Z0yCTeNi9qTy7Vb2M+p497B+jD0PAS8E97NzWZuBiYDZcfNsFT01f5MIF9xuQmqG
+q6kXM9DmA9+6JypKqmbNhsWMXjHmF2GdwAcZJ1kW9msNGz076/s=
+=7Q+2
 -----END PGP SIGNATURE-----
