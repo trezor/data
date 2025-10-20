@@ -1,0 +1,18 @@
+[
+  {
+    "required": false,
+    "version": [2, 9, 3],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 13],
+    "min_firmware_version": [2, 9, 3],
+    "bootloader_version": [2, 1, 14],
+    "firmware_revision": "0bd923c78990d8d58f82fe18660e57399aafc0f1",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3w1/trezor-t3w1-2.9.3.bin",
+    "fingerprint": "7069b1bc408b4d250cc4409e7a1bcdceb10c458b8c2b5e6b70ec32432c41d9b2",
+    "changelog": "* Public release of TS7 firmware.",
+    "url_bitcoinonly": "data/firmware/t3w1/trezor-t3w1-2.9.3-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "f5875ebd0521f60f09cf4a82775aa1f024538b7f88bcbf3984af62c557bed21a",
+    "changelog_bitcoinonly": "* Public release of TS7 firmware."
+  }
+]
