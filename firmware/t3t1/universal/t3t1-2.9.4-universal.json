@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 9, 4],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 10],
+  "firmware_revision": "ccf73fd0e9450b2407cd65f91cb06161454fc72b",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.9.4.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.9.4.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.9.4.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.9.4.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.9.4.bin"
+  },
+  "url": "firmware/t3t1/trezor-t3t1-2.9.4.bin",
+  "fingerprint": "3fdbe5049ccc40be04a27725b5f0ce8062f245ad8d6bce08e347a5940e4883e8",
+  "changelog": "* Show an explicit warning when host communication latency is high.\n* Show warning on Ripple destination tag missing.\n* Deprecate ETH Holesky testnet and use Hoodi testnet instead.\n* Fix false \"NO USB CONNECTION\" warning on the home screen.\n* Removed warning screen for some non-ERC20 contract calls.\n* Removed \"More info\" menu item from screens that don't have more info.\n* Fixed touch issue causing stuck hold-to-confirm buttons."
+}

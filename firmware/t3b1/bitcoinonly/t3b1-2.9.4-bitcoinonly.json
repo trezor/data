@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 9, 4],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 7],
+  "min_firmware_version": [2, 8, 3],
+  "bootloader_version": [2, 1, 10],
+  "firmware_revision": "ccf73fd0e9450b2407cd65f91cb06161454fc72b",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3b1/translation-T3B1-cs-CZ-2.9.4.bin",
+    "de-DE": "firmware/translations/t3b1/translation-T3B1-de-DE-2.9.4.bin",
+    "es-ES": "firmware/translations/t3b1/translation-T3B1-es-ES-2.9.4.bin",
+    "fr-FR": "firmware/translations/t3b1/translation-T3B1-fr-FR-2.9.4.bin",
+    "pt-BR": "firmware/translations/t3b1/translation-T3B1-pt-BR-2.9.4.bin"
+  },
+  "url": "firmware/t3b1/trezor-t3b1-2.9.4-bitcoinonly.bin",
+  "fingerprint": "80005079051f490b8d9c9280e9ce0a8f7adb6fe2c7a9e9cfafa9a58ec4411998",
+  "changelog": "* Show an explicit warning when host communication latency is high.\n* Fix false \"NO USB CONNECTION\" warning on the home screen.\n* Removed \"More info\" menu item from screens that don't have more info."
+}

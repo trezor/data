@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 9, 4],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 13],
+    "min_firmware_version": [2, 9, 3],
+    "bootloader_version": [2, 1, 15],
+    "firmware_revision": "ccf73fd0e9450b2407cd65f91cb06161454fc72b",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3w1/trezor-t3w1-2.9.4.bin",
+    "fingerprint": "6fafa9a1c23710f5165ea4a0c32fcc2dcc2ed3fadd5c67b4069f136435c48dd0",
+    "changelog": "* Show an explicit warning when host communication latency is high.\n* Show warning on Ripple destination tag missing.\n* Use LED effect for BLE pairing.\n* Deprecate ETH Holesky testnet and use Hoodi testnet instead.\n* Erase BLE bonds too after entering wipe code.\n* Restart BLE advertising after re-enabling BLE.\n* Fix false \"NO USB CONNECTION\" warning on the home screen.\n* Fix homescreen LED blinking.\n* Fixed battery drain when waiting for unofficial firmware confirmation.\n* Improve speed of translations upload over bluetooth.\n* Adjust random part of BLE device name during pairing.\n* Synchronize LED and background in tutorial.\n* Restart bluetooth on reboot from device menu.\n* Removed warning screen for some non-ERC20 contract calls.\n* Removed \"More info\" menu item from screens that don't have more info.\n* Fixed touch issue causing stuck hold-to-confirm buttons.\n* Reduce +/- buttons' size to allow more text to fit.\n* Add missing `get_serial_number` handler.",
+    "url_bitcoinonly": "data/firmware/t3w1/trezor-t3w1-2.9.4-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "882400d4a98b45257df1f1e0c354d82deac3f4e0f157dcb4a594d7800a1eae5a",
+    "changelog_bitcoinonly": "* Show an explicit warning when host communication latency is high.\n* Use LED effect for BLE pairing.\n* Erase BLE bonds too after entering wipe code.\n* Restart BLE advertising after re-enabling BLE.\n* Fix false \"NO USB CONNECTION\" warning on the home screen.\n* Fix homescreen LED blinking.\n* Fixed battery drain when waiting for unofficial firmware confirmation.\n* Improve speed of translations upload over bluetooth.\n* Adjust random part of BLE device name during pairing.\n* Synchronize LED and background in tutorial.\n* Restart bluetooth on reboot from device menu.\n* Removed \"More info\" menu item from screens that don't have more info.\n* Fixed touch issue causing stuck hold-to-confirm buttons.\n* Reduce +/- buttons' size to allow more text to fit.\n* Add missing `get_serial_number` handler."
+  },
+  {
+    "required": false,
     "version": [2, 9, 3],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 13],
