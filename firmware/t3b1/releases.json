@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 9, 4],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 7],
+    "min_firmware_version": [2, 8, 3],
+    "bootloader_version": [2, 1, 10],
+    "firmware_revision": "ccf73fd0e9450b2407cd65f91cb06161454fc72b",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3b1/trezor-t3b1-2.9.4.bin",
+    "fingerprint": "9e827398c2aca79b1f6275b8655a4c4dc235941b4981525b8002c80ed6de642c",
+    "changelog": "* Show an explicit warning when host communication latency is high.\n* Show warning on Ripple destination tag missing.\n* Deprecate ETH Holesky testnet and use Hoodi testnet instead.\n* Fix false \"NO USB CONNECTION\" warning on the home screen.\n* Removed warning screen for some non-ERC20 contract calls.\n* Removed \"More info\" menu item from screens that don't have more info.",
+    "url_bitcoinonly": "data/firmware/t3b1/trezor-t3b1-2.9.4-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "80005079051f490b8d9c9280e9ce0a8f7adb6fe2c7a9e9cfafa9a58ec4411998",
+    "changelog_bitcoinonly": "* Show an explicit warning when host communication latency is high.\n* Fix false \"NO USB CONNECTION\" warning on the home screen.\n* Removed \"More info\" menu item from screens that don't have more info."
+  },
+  {
+    "required": false,
     "version": [2, 9, 1],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 7],
