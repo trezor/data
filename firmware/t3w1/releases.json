@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 9, 5],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 13],
+    "min_firmware_version": [2, 9, 3],
+    "bootloader_version": [2, 1, 15],
+    "firmware_revision": "aecac16bb1261988d146079e9ab235056cee422e",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3w1/trezor-t3w1-2.9.5.bin",
+    "fingerprint": "be5b323e9d72d20faba66541b16ceb221e752f5061a34dbcd31a2b20c31c8bba",
+    "changelog": "* Fixed tamper RSOD not showing.",
+    "url_bitcoinonly": "data/firmware/t3w1/trezor-t3w1-2.9.5-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "fa31d60e16ceb667b29df3cf862cef73620399aea2afa9d4fd0ba0da2987dd57",
+    "changelog_bitcoinonly": "* Fixed tamper RSOD not showing."
+  },
+  {
+    "required": false,
     "version": [2, 9, 4],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 13],
