@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 9, 5],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 13],
+  "min_firmware_version": [2, 9, 3],
+  "bootloader_version": [2, 1, 15],
+  "firmware_revision": "aecac16bb1261988d146079e9ab235056cee422e",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3w1/translation-T3W1-cs-CZ-2.9.5.bin",
+    "de-DE": "firmware/translations/t3w1/translation-T3W1-de-DE-2.9.5.bin",
+    "es-ES": "firmware/translations/t3w1/translation-T3W1-es-ES-2.9.5.bin",
+    "fr-FR": "firmware/translations/t3w1/translation-T3W1-fr-FR-2.9.5.bin",
+    "pt-BR": "firmware/translations/t3w1/translation-T3W1-pt-BR-2.9.5.bin"
+  },
+  "url": "firmware/t3w1/trezor-t3w1-2.9.5-bitcoinonly.bin",
+  "fingerprint": "fa31d60e16ceb667b29df3cf862cef73620399aea2afa9d4fd0ba0da2987dd57",
+  "changelog": "* Fixed tamper RSOD not showing."
+}
