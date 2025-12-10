@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 9, 6],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 13],
+    "min_firmware_version": [2, 9, 3],
+    "bootloader_version": [2, 1, 15],
+    "firmware_revision": "dbb7b00ce10fb7eab33fa2021c4096c623b0b146",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3w1/trezor-t3w1-2.9.6.bin",
+    "fingerprint": "f8054776338d4b5da710dbc9c1d223250990c7e231df8c98ea72c917d2663927",
+    "changelog": "* Fixed Stellar amount font.\n* Fixed Bitcoin locktime font.\n* Fixed external tamper trigger clearing.",
+    "url_bitcoinonly": "data/firmware/t3w1/trezor-t3w1-2.9.6-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "871371252198020d03b7400ccc635aa37daf571fa7de3b643182ac154ec9e31c",
+    "changelog_bitcoinonly": "* Fixed Bitcoin locktime font.\n* Fixed external tamper trigger clearing."
+  },
+  {
+    "required": false,
     "version": [2, 9, 5],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 13],
