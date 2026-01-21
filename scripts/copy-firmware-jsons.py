@@ -47,12 +47,12 @@ def copy_and_adapt_json(src: Path, dst: Path, new_url: Path) -> dict:
     # overwrite "url" since the binary has been renamed
     data["url"] = str(new_url)
 
-    if (translations := data.get("translations")) is not None:
-        # drop "signed/" subdirectory from translations' URLs
-        data["translations"] = {
-            key: re.sub("^firmware/signed/", "firmware/", value)
-            for key, value in translations.items()
-        }
+    translations = data.get("translations", {})
+    # drop "signed/" subdirectory from translations' URLs
+    data["translations"] = {
+        key: re.sub("^firmware/signed/", "firmware/", value)
+        for key, value in translations.items()
+    }
 
     json_write(data=data, path=dst)
     return data
