@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 10, 0],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 0, 0],
+  "min_firmware_version": [2, 0, 8],
+  "bootloader_version": [2, 1, 8],
+  "firmware_revision": "de4b70e2e89a64f3894dba2124f6ec56e5cbd088",
+  "url": "firmware/t2t1/trezor-t2t1-2.10.0.bin",
+  "fingerprint": "e9520391f96a116bf6f6611c9a70d119b0609d08cadae2cdd3ed52b9aa9547fe",
+  "changelog": "* Added version build number to Features message.\n* Allow loading translations with different BUILD_VERSION.\n* Fixed FIDO credentials scrolling.\n* Fixed address chunkification in certain cases.\n* Fixed side-channel vulnerability in BIP-39 mnemonic processing.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t2t1/translation-T2T1-cs-CZ-2.10.0.bin",
+    "de-DE": "firmware/translations/t2t1/translation-T2T1-de-DE-2.10.0.bin",
+    "es-ES": "firmware/translations/t2t1/translation-T2T1-es-ES-2.10.0.bin",
+    "fr-FR": "firmware/translations/t2t1/translation-T2T1-fr-FR-2.10.0.bin",
+    "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.10.0.bin"
+  }
+}

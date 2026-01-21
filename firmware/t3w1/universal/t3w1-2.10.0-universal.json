@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 10, 0],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 13],
+  "min_firmware_version": [2, 9, 3],
+  "bootloader_version": [2, 1, 15],
+  "firmware_revision": "de4b70e2e89a64f3894dba2124f6ec56e5cbd088",
+  "url": "firmware/t3w1/trezor-t3w1-2.10.0.bin",
+  "fingerprint": "b78f4b1a27edab64da346a18794c7b4521e36ff8d89c448b8694b3d0ba595a25",
+  "changelog": "* Reset Tropic and retry command when alarm mode is detected.\n* Introduce wear leveling of mac-and-destroy slots in Tropic.\n* Added version build number to Features message.\n* Update Regulatory screen in the device menu.\n* Allow loading translations with different BUILD_VERSION.\n* Change bootscreen homebar text to 'Unlock'.\n* Fixed address chunkification in certain cases.\n* Fixed side-channel vulnerability in BIP-39 mnemonic processing.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3w1/translation-T3W1-cs-CZ-2.10.0.bin",
+    "de-DE": "firmware/translations/t3w1/translation-T3W1-de-DE-2.10.0.bin",
+    "es-ES": "firmware/translations/t3w1/translation-T3W1-es-ES-2.10.0.bin",
+    "fr-FR": "firmware/translations/t3w1/translation-T3W1-fr-FR-2.10.0.bin",
+    "pt-BR": "firmware/translations/t3w1/translation-T3W1-pt-BR-2.10.0.bin"
+  }
+}
