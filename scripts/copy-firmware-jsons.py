@@ -147,9 +147,10 @@ def main(version: str, release_repo: Path):
             universal_dst,
         )
         btconly_dst = model_dst / f"trezor-{model_name}-{version}-bitcoinonly.bin"
+        btconly = "bitcoinonly" if model_name == "t1b1" else "btconly"
         copy_single_file(
             model_src,
-            f"firmware-{model_name.upper()}-btconly-{version}-*-signed.bin",
+            f"firmware-{model_name.upper()}-{btconly}-{version}-*-signed.bin",
             btconly_dst,
         )
 
