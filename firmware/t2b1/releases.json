@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 10, 0],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 1],
+    "min_firmware_version": [2, 6, 1],
+    "bootloader_version": [2, 1, 8],
+    "firmware_revision": "de4b70e2e89a64f3894dba2124f6ec56e5cbd088",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t2b1/trezor-t2b1-2.10.0.bin",
+    "fingerprint": "b82b0b714b22da7b67dfde4546e827ed9806960ddd18552400799b9853149be3",
+    "changelog": "* Added version build number to Features message.\n* Allow loading translations with different BUILD_VERSION.\n* Fixed address chunkification in certain cases.\n* Fixed side-channel vulnerability in BIP-39 mnemonic processing.",
+    "url_bitcoinonly": "data/firmware/t2b1/trezor-t2b1-2.10.0-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "49afac022a971f0b649b488dfe7f1664f6ee981c78d7942050a7e06e965e2b11",
+    "changelog_bitcoinonly": "* Added version build number to Features message.\n* Allow loading translations with different BUILD_VERSION.\n* Fixed address chunkification in certain cases.\n* Fixed side-channel vulnerability in BIP-39 mnemonic processing."
+  },
+  {
+    "required": false,
     "version": [2, 9, 4],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 1],
