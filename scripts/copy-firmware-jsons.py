@@ -47,12 +47,12 @@ def copy_and_adapt_json(src: Path, dst: Path, new_url: Path) -> dict:
     # overwrite "url" since the binary has been renamed
     data["url"] = str(new_url)
 
-    if (translations := data.get("translations")) is not None:
-        # drop "signed/" subdirectory from translations' URLs
-        data["translations"] = {
-            key: re.sub("^firmware/signed/", "firmware/", value)
-            for key, value in translations.items()
-        }
+    translations = data.get("translations", {})
+    # drop "signed/" subdirectory from translations' URLs
+    data["translations"] = {
+        key: re.sub("^firmware/signed/", "firmware/", value)
+        for key, value in translations.items()
+    }
 
     json_write(data=data, path=dst)
     return data
@@ -147,9 +147,10 @@ def main(version: str, release_repo: Path):
             universal_dst,
         )
         btconly_dst = model_dst / f"trezor-{model_name}-{version}-bitcoinonly.bin"
+        btconly = "bitcoinonly" if model_name == "t1b1" else "btconly"
         copy_single_file(
             model_src,
-            f"firmware-{model_name.upper()}-btconly-{version}-*-signed.bin",
+            f"firmware-{model_name.upper()}-{btconly}-{version}-*-signed.bin",
             btconly_dst,
         )
 
