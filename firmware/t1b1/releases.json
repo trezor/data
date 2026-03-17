@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [1, 14, 1],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [1, 12, 0],
+    "min_firmware_version": [1, 12, 0],
+    "bootloader_version": [1, 12, 1],
+    "firmware_revision": "725c0c01879329900f08fc453d8fd0fcb4d86090",
+    "translations": [],
+    "url": "data/firmware/t1b1/trezor-t1b1-1.14.1.bin",
+    "fingerprint": "9d0b9070d391d6b71518d2a8143599083ff1afcd3c5fa4136ace46042d7f61e4",
+    "changelog": "* Enforce advanced recovery for mnemonics shorter than 24 words.\n* Warn if Ethereum data is too long.\n* Allow using Ethereum mainnet addresses on all non-Ethereum networks. This enables access to networks like Hyperliquid that use conflicting chain IDs and cannot obtain official SLIP-44 registration.\n* Allow ETH staking operations regardless of source.",
+    "url_bitcoinonly": "data/firmware/t1b1/trezor-t1b1-1.14.1-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "39b22b379192506988b72fc430f57a00da1fcaecf3a3c8526909c461951cea30",
+    "changelog_bitcoinonly": "* Enforce advanced recovery for mnemonics shorter than 24 words."
+  },
+  {
+    "required": false,
     "version": [1, 14, 0],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [1, 12, 0],
