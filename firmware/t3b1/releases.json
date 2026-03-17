@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 11, 0],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 7],
+    "min_firmware_version": [2, 8, 3],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "725c0c01879329900f08fc453d8fd0fcb4d86090",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3b1/trezor-t3b1-2.11.0.bin",
+    "fingerprint": "e03a961dc39051e3e925fbe57cce676c0236e4c179b209b1a4093ac02a12698b",
+    "changelog": "* Confirm all data during Ethereum transaction hashing.\n* Fix a bug in BTC multisig verification.\n* Add TRON support for TRX and other TRC-20 tokens, smart contracts, and Stake 2.0.\n* Allow ETH staking operations regardless of source.\n* Fix a crash for ETH Approve calls containing ERC-8021 data.",
+    "url_bitcoinonly": "data/firmware/t3b1/trezor-t3b1-2.11.0-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "46e1ca6ea5e5fa74bc762da0fd046f5847d2e3a41dde7b5597c6c80f9405b84d",
+    "changelog_bitcoinonly": "* Fix a bug in BTC multisig verification."
+  },
+  {
+    "required": false,
     "version": [2, 10, 0],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 7],
