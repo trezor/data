@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 11, 0],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "725c0c01879329900f08fc453d8fd0fcb4d86090",
+  "url": "firmware/t3t1/trezor-t3t1-2.11.0.bin",
+  "fingerprint": "c79bd21537ce8c15336a6a112e3ab9076c8c404f4a6aad7ccd1ef438639ba9b0",
+  "changelog": "* Confirm all data during Ethereum transaction hashing.\n* Fix a bug in BTC multisig verification.\n* Add TRON support for TRX and other TRC-20 tokens, smart contracts, and Stake 2.0.\n* Allow ETH staking operations regardless of source.\n* Fix a crash for ETH Approve calls containing ERC-8021 data.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.11.0.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.11.0.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.11.0.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.11.0.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.11.0.bin"
+  }
+}

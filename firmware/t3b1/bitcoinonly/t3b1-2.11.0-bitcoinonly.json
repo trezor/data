@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 11, 0],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 7],
+  "min_firmware_version": [2, 8, 3],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "725c0c01879329900f08fc453d8fd0fcb4d86090",
+  "url": "firmware/t3b1/trezor-t3b1-2.11.0-bitcoinonly.bin",
+  "fingerprint": "46e1ca6ea5e5fa74bc762da0fd046f5847d2e3a41dde7b5597c6c80f9405b84d",
+  "changelog": "* Fix a bug in BTC multisig verification.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3b1/translation-T3B1-cs-CZ-2.11.0.bin",
+    "de-DE": "firmware/translations/t3b1/translation-T3B1-de-DE-2.11.0.bin",
+    "es-ES": "firmware/translations/t3b1/translation-T3B1-es-ES-2.11.0.bin",
+    "fr-FR": "firmware/translations/t3b1/translation-T3B1-fr-FR-2.11.0.bin",
+    "pt-BR": "firmware/translations/t3b1/translation-T3B1-pt-BR-2.11.0.bin"
+  }
+}

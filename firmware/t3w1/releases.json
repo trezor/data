@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 11, 0],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 13],
+    "min_firmware_version": [2, 9, 3],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "725c0c01879329900f08fc453d8fd0fcb4d86090",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3w1/trezor-t3w1-2.11.0.bin",
+    "fingerprint": "1bfa1768b0d9ee6d4029bf969619c0a34414ef5a583d389607f6c35280ce365a",
+    "changelog": "* Confirm all data during Ethereum transaction hashing.\n* Fix a bug in BTC multisig verification.\n* Add TRON support for TRX and other TRC-20 tokens, smart contracts, and Stake 2.0.\n* Allow ETH staking operations regardless of source.\n* Disable downgrading firmware to lower versions.\n* Fix a crash for ETH Approve calls containing ERC-8021 data.\n* Fix 'Connected Trezor is used by another application' bug.",
+    "url_bitcoinonly": "data/firmware/t3w1/trezor-t3w1-2.11.0-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "06040ed0fabdb71148b024706cbc27685e8ef420f56e8abcbd83eedd6cbe9294",
+    "changelog_bitcoinonly": "* Fix a bug in BTC multisig verification.\n* Disable downgrading firmware to lower versions.\n* Fix 'Connected Trezor is used by another application' bug."
+  },
+  {
+    "required": false,
     "version": [2, 10, 0],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 13],

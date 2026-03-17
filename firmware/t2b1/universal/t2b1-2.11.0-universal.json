@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 11, 0],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 1],
+  "min_firmware_version": [2, 6, 1],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "725c0c01879329900f08fc453d8fd0fcb4d86090",
+  "url": "firmware/t2b1/trezor-t2b1-2.11.0.bin",
+  "fingerprint": "18cbd5ba7110c7e2af221693e956a449ce6a5b0fe657483428d62c82635e2de5",
+  "changelog": "* Confirm all data during Ethereum transaction hashing.\n* Fix a bug in BTC multisig verification.\n* Add TRON support for TRX and other TRC-20 tokens, smart contracts, and Stake 2.0.\n* Allow ETH staking operations regardless of source.\n* Fix a crash for ETH Approve calls containing ERC-8021 data.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t2b1/translation-T2B1-cs-CZ-2.11.0.bin",
+    "de-DE": "firmware/translations/t2b1/translation-T2B1-de-DE-2.11.0.bin",
+    "es-ES": "firmware/translations/t2b1/translation-T2B1-es-ES-2.11.0.bin",
+    "fr-FR": "firmware/translations/t2b1/translation-T2B1-fr-FR-2.11.0.bin",
+    "pt-BR": "firmware/translations/t2b1/translation-T2B1-pt-BR-2.11.0.bin"
+  }
+}
