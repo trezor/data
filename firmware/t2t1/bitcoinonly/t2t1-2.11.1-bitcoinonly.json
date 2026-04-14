@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 11, 1],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 0, 0],
+  "min_firmware_version": [2, 0, 8],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "ef73d69c06a0496a06ca849ed4f84d9beafe5c2c",
+  "url": "firmware/t2t1/trezor-t2t1-2.11.1-bitcoinonly.bin",
+  "fingerprint": "0f85b3d435dee92a0d56687a7db4586874b503f9ca155464eef7ad12005120cd",
+  "changelog": "",
+  "translations": {
+    "cs-CZ": "firmware/translations/t2t1/translation-T2T1-cs-CZ-2.11.1.bin",
+    "de-DE": "firmware/translations/t2t1/translation-T2T1-de-DE-2.11.1.bin",
+    "es-ES": "firmware/translations/t2t1/translation-T2T1-es-ES-2.11.1.bin",
+    "fr-FR": "firmware/translations/t2t1/translation-T2T1-fr-FR-2.11.1.bin",
+    "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.11.1.bin"
+  }
+}

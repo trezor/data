@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 11, 1],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "ef73d69c06a0496a06ca849ed4f84d9beafe5c2c",
+  "url": "firmware/t3t1/trezor-t3t1-2.11.1.bin",
+  "fingerprint": "ecee53e6518138ff3f85d1b74d552f7a1cca25704d8e07780de596bde1e46387",
+  "changelog": "* Added clear signing support for select swap functions from Uniswap.\n* Added WebAuthn credentials' pagination.\n* Added support for `VoteWitnessContract` in Tron.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.11.1.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.11.1.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.11.1.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.11.1.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.11.1.bin"
+  }
+}
