@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 11, 1],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 1],
+  "min_firmware_version": [2, 6, 1],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "ef73d69c06a0496a06ca849ed4f84d9beafe5c2c",
+  "url": "firmware/t2b1/trezor-t2b1-2.11.1.bin",
+  "fingerprint": "95b6bd1add9abe5b310638ebc69f0b508a97e4d1dcc8b7cc8828ee0c13d58149",
+  "changelog": "* Added clear signing support for select swap functions from Uniswap.\n* Added WebAuthn credentials' pagination.\n* Added support for `VoteWitnessContract` in Tron.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t2b1/translation-T2B1-cs-CZ-2.11.1.bin",
+    "de-DE": "firmware/translations/t2b1/translation-T2B1-de-DE-2.11.1.bin",
+    "es-ES": "firmware/translations/t2b1/translation-T2B1-es-ES-2.11.1.bin",
+    "fr-FR": "firmware/translations/t2b1/translation-T2B1-fr-FR-2.11.1.bin",
+    "pt-BR": "firmware/translations/t2b1/translation-T2B1-pt-BR-2.11.1.bin"
+  }
+}
