@@ -73,7 +73,6 @@ def update_releases_json(
     shared_keys = [
         "required",
         "version",
-        "min_bridge_version",
         "min_bootloader_version",
         "min_firmware_version",
         "bootloader_version",
