@@ -18,7 +18,6 @@
   {
     "required": false,
     "version": [2, 12, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 16],
@@ -34,7 +33,6 @@
   {
     "required": false,
     "version": [2, 11, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 16],
@@ -50,7 +48,6 @@
   {
     "required": false,
     "version": [2, 11, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 16],
@@ -66,7 +63,6 @@
   {
     "required": false,
     "version": [2, 10, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -82,7 +78,6 @@
   {
     "required": false,
     "version": [2, 9, 4],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -98,7 +93,6 @@
   {
     "required": false,
     "version": [2, 9, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -114,7 +108,6 @@
   {
     "required": false,
     "version": [2, 9, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -130,7 +123,6 @@
   {
     "required": false,
     "version": [2, 8, 10],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -146,7 +138,6 @@
   {
     "required": false,
     "version": [2, 8, 9],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -162,7 +153,6 @@
   {
     "required": false,
     "version": [2, 8, 8],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -178,7 +168,6 @@
   {
     "required": false,
     "version": [2, 8, 7],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 8],
@@ -194,7 +183,6 @@
   {
     "required": false,
     "version": [2, 8, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],
     "min_firmware_version": [2, 0, 8],
     "bootloader_version": [2, 1, 6],
@@ -210,7 +198,6 @@
   {
     "required": false,
     "version": [2, 7, 2],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "bootloader_version": [2, 1, 4],
@@ -226,7 +213,6 @@
   {
     "required": false,
     "version": [2, 7, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "bootloader_version": [2, 1, 4],
@@ -242,7 +228,6 @@
   {
     "required": false,
     "version": [2, 6, 4],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "bootloader_version": [2, 1, 4],
@@ -257,7 +242,6 @@
   {
     "required": false,
     "version": [2, 6, 3],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "bootloader_version": [2, 1, 4],
@@ -272,7 +256,6 @@
   {
     "required": false,
     "version": [2, 6, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "bootloader_version": [2, 1, 0],
@@ -288,7 +271,6 @@
   {
     "required": false,
     "version": [2, 5, 3],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.5.3.bin",
@@ -303,7 +285,6 @@
   {
     "required": false,
     "version": [2, 5, 2],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.5.2.bin",
@@ -318,7 +299,6 @@
   {
     "required": false,
     "version": [2, 5, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.5.1.bin",
@@ -333,7 +313,6 @@
   {
     "required": false,
     "version": [2, 4, 3],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.4.3.bin",
@@ -348,7 +327,6 @@
   {
     "required": false,
     "version": [2, 4, 2],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.4.2.bin",
@@ -363,7 +341,6 @@
   {
     "required": false,
     "version": [2, 4, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.4.1.bin",
@@ -378,7 +355,6 @@
   {
     "required": false,
     "version": [2, 4, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.4.0.bin",
@@ -393,7 +369,6 @@
   {
     "required": false,
     "version": [2, 3, 6],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.6.bin",
@@ -407,7 +382,6 @@
   {
     "required": false,
     "version": [2, 3, 5],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.5.bin",
@@ -422,7 +396,6 @@
   {
     "required": false,
     "version": [2, 3, 4],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.4.bin",
@@ -437,7 +410,6 @@
   {
     "required": false,
     "version": [2, 3, 3],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.3.bin",
@@ -452,7 +424,6 @@
   {
     "required": false,
     "version": [2, 3, 2],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.2.bin",
@@ -467,7 +438,6 @@
   {
     "required": false,
     "version": [2, 3, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.1.bin",
@@ -482,7 +452,6 @@
   {
     "required": false,
     "version": [2, 3, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.3.0.bin",
@@ -497,7 +466,6 @@
   {
     "required": false,
     "version": [2, 1, 8],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.8.bin",
@@ -511,7 +479,6 @@
   {
     "required": false,
     "version": [2, 1, 7],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.7.bin",
@@ -525,7 +492,6 @@
   {
     "required": false,
     "version": [2, 1, 6],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.6.bin",
@@ -539,7 +505,6 @@
   {
     "required": false,
     "version": [2, 1, 5],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.5.bin",
@@ -553,7 +518,6 @@
   {
     "required": false,
     "version": [2, 1, 4],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 8],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.4.bin",
@@ -564,7 +528,6 @@
   {
     "required": false,
     "version": [2, 1, 1],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.1.bin",
@@ -576,7 +539,6 @@
     "required": false,
     "version": [2, 1, 0],
     "bootloader_version": [2, 0, 3],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.1.0.bin",
@@ -590,7 +552,6 @@
     "required": false,
     "version": [2, 0, 10],
     "bootloader_version": [2, 0, 2],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.0.10.bin",
@@ -602,7 +563,6 @@
     "required": false,
     "version": [2, 0, 9],
     "bootloader_version": [2, 0, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.0.9.bin",
@@ -614,7 +574,6 @@
     "required": false,
     "version": [2, 0, 8],
     "bootloader_version": [2, 0, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.0.8.bin",
@@ -626,7 +585,6 @@
     "required": false,
     "version": [2, 0, 7],
     "bootloader_version": [2, 0, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.0.7.bin",
@@ -639,7 +597,6 @@
     "required": false,
     "version": [2, 0, 6],
     "bootloader_version": [2, 0, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.0.6.bin",
@@ -651,7 +608,6 @@
     "required": true,
     "version": [2, 0, 5],
     "bootloader_version": [2, 0, 0],
-    "min_bridge_version": [2, 0, 7],
     "min_firmware_version": [2, 0, 5],
     "min_bootloader_version": [2, 0, 0],
     "url": "data/firmware/t2t1/trezor-t2t1-2.0.5.bin",
