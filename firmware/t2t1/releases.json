@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 12, 1],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 0, 0],
+    "min_firmware_version": [2, 0, 8],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "64698d0d844e3322eca435beaae3df602aa08b10",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t2t1/trezor-t2t1-2.12.1.bin",
+    "fingerprint": "1992799b6a5b40a7474fbf17330ce94b190a7213ad8a4f84492a9e75afe4a009",
+    "changelog": "* Added support for `AccountDelete` transaction in Ripple.\n* Added support for Solana off-chain message signing (OCMS) v0.\n* Solana System Program Transfer instruction now supports multisig.\n* Hide written characters in passphrase keyboard.\n* Improved Tron TRX transfer flow.\n* Improved Stellar confirmation flows.\n* Fixed device locking if only SD card protection is enabled.",
+    "url_bitcoinonly": "data/firmware/t2t1/trezor-t2t1-2.12.1-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "5f8049bc147e956aafb56a46f4c319e18ef8340fe8c932cb84b0219fb8eb7cdf",
+    "changelog_bitcoinonly": "* Hide written characters in passphrase keyboard.\n* Fixed device locking if only SD card protection is enabled."
+  },
+  {
+    "required": false,
     "version": [2, 12, 0],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 0, 0],

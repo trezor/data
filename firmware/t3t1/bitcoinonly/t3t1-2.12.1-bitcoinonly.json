@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "version": [2, 12, 1],
+  "min_bridge_version": [2, 0, 7],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "64698d0d844e3322eca435beaae3df602aa08b10",
+  "url": "firmware/t3t1/trezor-t3t1-2.12.1-bitcoinonly.bin",
+  "fingerprint": "27a3a6b2f4db9d4fd97ee558ccc83f37043165d9eb532a0fcac6082171c803e3",
+  "changelog": "* Hide written characters in passphrase keyboard.\n* Fixed device locking if only SD card protection is enabled.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.12.1.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.12.1.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.12.1.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.12.1.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.12.1.bin"
+  }
+}
