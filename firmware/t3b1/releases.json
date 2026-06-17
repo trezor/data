@@ -1,6 +1,22 @@
 [
   {
     "required": false,
+    "version": [2, 12, 1],
+    "min_bridge_version": [2, 0, 7],
+    "min_bootloader_version": [2, 1, 7],
+    "min_firmware_version": [2, 8, 3],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "64698d0d844e3322eca435beaae3df602aa08b10",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3b1/trezor-t3b1-2.12.1.bin",
+    "fingerprint": "edda8458766227418c7d3b40eeeb41bbb330dbcbf9ae3c6410f29510c555793e",
+    "changelog": "* Added support for `AccountDelete` transaction in Ripple.\n* Added support for Solana off-chain message signing (OCMS) v0.\n* Solana System Program Transfer instruction now supports multisig.\n* Improved Tron TRX transfer flow.\n* Improved Stellar confirmation flows.",
+    "url_bitcoinonly": "data/firmware/t3b1/trezor-t3b1-2.12.1-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "f48929eda43952f8310783ea449c37d7b10515af5b92c92c3027d9fbc4bcb66c",
+    "changelog_bitcoinonly": ""
+  },
+  {
+    "required": false,
     "version": [2, 12, 0],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 7],
