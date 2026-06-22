@@ -13,18 +13,15 @@ cd "$PARENT_PATH/../firmware" || exit
 
 EXCLUDED_DIR="translations"
 
-IS_LEGACY="false"
-
 for dir in */ ; do
     DEVICE=${dir%/}
+    if [[ ! -d "$dir" ]]; then continue; fi
     if [[ $EXCLUDED_DIR == "$DEVICE" ]]; then continue; fi
-        is_legacy_for_device="$IS_LEGACY"
+        is_legacy_only="false"
     if [[ "$DEVICE" == "1" || "$DEVICE" == "2" ]]; then
-        is_legacy_for_device="true"
+        is_legacy_only="true"
     fi
-    if [ -d "$dir" ]; then
-        if ! "$PARENT_PATH/check-firmware-revisions.sh" "$DEVICE" "$is_legacy_for_device" ; then
-            exit 1
-        fi;
-    fi
+    if ! "$PARENT_PATH/check-firmware-revisions.sh" "$DEVICE" "$is_legacy_only" ; then
+        exit 1
+    fi;
 done
