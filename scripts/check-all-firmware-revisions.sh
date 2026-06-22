@@ -17,8 +17,7 @@ IS_LEGACY="false"
 
 for dir in */ ; do
     DEVICE=${dir%/}
-    # TODO: we excude t3w1 until we have releases on it.
-    if [[ $EXCLUDED_DIR == "$DEVICE" || $DEVICE == "t3w1" ]]; then continue; fi
+    if [[ $EXCLUDED_DIR == "$DEVICE" ]]; then continue; fi
         is_legacy_for_device="$IS_LEGACY"
     if [[ "$DEVICE" == "1" || "$DEVICE" == "2" ]]; then
         is_legacy_for_device="true"
