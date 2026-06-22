@@ -136,6 +136,11 @@ def main(version: str, release_repo: Path):
 
     for model_src in sorted(signed.glob("t?[btw]?")):
         model_name = model_src.name.lower()
+        if model_name == "t1b1":
+            click.secho(
+                "Warning: for T1B1 you should manually backfill the bootloader_hash from trezor-firmware/legacy/firmware/bl_check.txt",
+                fg="yellow",
+            )
 
         # copy signed binaries while matching naming convention
         click.secho(f"\n{model_name} binaries", bold=True)
