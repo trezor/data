@@ -7,7 +7,7 @@
   "firmware_revision": "1f2aa7f3aadbb1588a866140c8d767eebeb98290",
   "url": "firmware/t3w1/trezor-t3w1-2.12.2.bin",
   "fingerprint": "16e8cb89545d9e3fcb8f3a1800e103b903c557a3eca2b556af24d99e93ea193a",
-  "changelog": "* Ethereum: Improved clear signing support.\n* Tron: Claim voting rewards.\n* Solana: Allow chunkified addresses.\n* Fix menu closing after change of settings.\n* Avoid failing backup flow on I/O errors.\n* Close FIDO2 error popup after 4 seconds.\n* Solana: Show program id instead of 'unsupported program' label.\n* Fix device menu refresh.\n* Solana: User confirmations for some instruction parameters.\n* Solana: Fixed token transfer recipient for ALT addresses.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
+  "changelog": "* Ethereum: Improved clear signing support.\n* Tron: Claim voting rewards.\n* Solana: Allow chunkified addresses.\n* Fix menu closing after change of settings.\n* Avoid failing backup flow on I/O errors.\n* Close FIDO2 error popup after 4 seconds.\n* Solana: Show program id instead of 'unsupported program' label.\n* Fix device menu refresh.\n* Discard low-order keys in THP Code Entry pairing.\n* Solana: User confirmations for some instruction parameters.\n* Solana: Fixed token transfer recipient for ALT addresses.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
   "translations": {
     "cs-CZ": "firmware/translations/t3w1/translation-T3W1-cs-CZ-2.12.2.bin",
     "de-DE": "firmware/translations/t3w1/translation-T3W1-de-DE-2.12.2.bin",

@@ -7,7 +7,7 @@
   "firmware_revision": "1f2aa7f3aadbb1588a866140c8d767eebeb98290",
   "url": "firmware/t3w1/trezor-t3w1-2.12.2-bitcoinonly.bin",
   "fingerprint": "933993cd888aa854f71f0d95eedcd7235a2ed17e64b04b70d00ce4ae95b8cc8e",
-  "changelog": "* Fix menu closing after change of settings.\n* Avoid failing backup flow on I/O errors.\n* Close FIDO2 error popup after 4 seconds.\n* Fix device menu refresh.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
+  "changelog": "* Fix menu closing after change of settings.\n* Avoid failing backup flow on I/O errors.\n* Close FIDO2 error popup after 4 seconds.\n* Fix device menu refresh.\n* Discard low-order keys in THP Code Entry pairing.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
   "translations": {
     "cs-CZ": "firmware/translations/t3w1/translation-T3W1-cs-CZ-2.12.2.bin",
     "de-DE": "firmware/translations/t3w1/translation-T3W1-de-DE-2.12.2.bin",
