@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "version": [2, 12, 2],
+  "min_bootloader_version": [2, 0, 0],
+  "min_firmware_version": [2, 0, 8],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "1f2aa7f3aadbb1588a866140c8d767eebeb98290",
+  "url": "firmware/t2t1/trezor-t2t1-2.12.2.bin",
+  "fingerprint": "e0aaf8ab18fe5a052a1bda0b2f353c2db9635c5aacd0a93c6197c3e31b3c646d",
+  "changelog": "* Ethereum: Improved clear signing support.\n* Tron: Claim voting rewards.\n* Solana: Allow chunkified addresses.\n* Avoid failing backup flow on I/O errors.\n* Return an explicit error when try to derive seed on Bitcoin-only firmware.\n* Solana: Show program id instead of 'unsupported program' label.\n* Solana: User confirmations for some instruction parameters.\n* Solana: Fixed token transfer recipient for ALT addresses.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t2t1/translation-T2T1-cs-CZ-2.12.2.bin",
+    "de-DE": "firmware/translations/t2t1/translation-T2T1-de-DE-2.12.2.bin",
+    "es-ES": "firmware/translations/t2t1/translation-T2T1-es-ES-2.12.2.bin",
+    "fr-FR": "firmware/translations/t2t1/translation-T2T1-fr-FR-2.12.2.bin",
+    "pt-BR": "firmware/translations/t2t1/translation-T2T1-pt-BR-2.12.2.bin"
+  }
+}

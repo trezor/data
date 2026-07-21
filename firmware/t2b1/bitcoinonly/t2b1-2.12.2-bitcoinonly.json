@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "version": [2, 12, 2],
+  "min_bootloader_version": [2, 1, 1],
+  "min_firmware_version": [2, 6, 1],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "1f2aa7f3aadbb1588a866140c8d767eebeb98290",
+  "url": "firmware/t2b1/trezor-t2b1-2.12.2-bitcoinonly.bin",
+  "fingerprint": "8aad40bd8f69151a3cdb705038fc450de361f7bb2d65c526968162891bc9f711",
+  "changelog": "* Avoid failing backup flow on I/O errors.\n* Return an explicit error when try to derive seed on Bitcoin-only firmware.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t2b1/translation-T2B1-cs-CZ-2.12.2.bin",
+    "de-DE": "firmware/translations/t2b1/translation-T2B1-de-DE-2.12.2.bin",
+    "es-ES": "firmware/translations/t2b1/translation-T2B1-es-ES-2.12.2.bin",
+    "fr-FR": "firmware/translations/t2b1/translation-T2B1-fr-FR-2.12.2.bin",
+    "pt-BR": "firmware/translations/t2b1/translation-T2B1-pt-BR-2.12.2.bin"
+  }
+}

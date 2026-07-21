@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "version": [2, 12, 2],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "1f2aa7f3aadbb1588a866140c8d767eebeb98290",
+  "url": "firmware/t3t1/trezor-t3t1-2.12.2-bitcoinonly.bin",
+  "fingerprint": "49231d211eebe208a4022375e6f302da99821efb1e904cb5077b689cfc5ae24b",
+  "changelog": "* Solana: allow chunkified addresses.\n* Avoid failing backup flow on I/O errors.\n* Return an explicit error when try to derive seed on Bitcoin-only firmware.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.12.2.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.12.2.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.12.2.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.12.2.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.12.2.bin"
+  }
+}

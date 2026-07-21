@@ -1,6 +1,21 @@
 [
   {
     "required": false,
+    "version": [2, 12, 2],
+    "min_bootloader_version": [2, 1, 6],
+    "min_firmware_version": [2, 7, 2],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "1f2aa7f3aadbb1588a866140c8d767eebeb98290",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3t1/trezor-t3t1-2.12.2.bin",
+    "fingerprint": "6c9677f982402809d0cd22f7a135c451fe17afccf71ed8a915fa8018c45f6292",
+    "changelog": "* Ethereum: Improved clear signing support.\n* Tron: Claim voting rewards.\n* Solana: allow chunkified addresses.\n* Avoid failing backup flow on I/O errors.\n* Return an explicit error when try to derive seed on Bitcoin-only firmware.\n* Solana: Show program id instead of 'unsupported program' label.\n* Solana: User confirmations for some instruction parameters.\n* Solana: Fixed token transfer recipient for ALT addresses.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions.",
+    "url_bitcoinonly": "data/firmware/t3t1/trezor-t3t1-2.12.2-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "49231d211eebe208a4022375e6f302da99821efb1e904cb5077b689cfc5ae24b",
+    "changelog_bitcoinonly": "* Solana: allow chunkified addresses.\n* Avoid failing backup flow on I/O errors.\n* Return an explicit error when try to derive seed on Bitcoin-only firmware.\n* Fix external input misidentification in bitcoin signing.\n* Reject new external outputs in bitcoin replacement transactions."
+  },
+  {
+    "required": false,
     "version": [2, 12, 1],
     "min_bridge_version": [2, 0, 7],
     "min_bootloader_version": [2, 1, 6],
