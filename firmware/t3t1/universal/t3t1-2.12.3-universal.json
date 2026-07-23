@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "version": [2, 12, 3],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "0d3dee246dadb2ee6ee449272f4936a4ff6bbdff",
+  "url": "firmware/t3t1/trezor-t3t1-2.12.3.bin",
+  "fingerprint": "93fde6631771ba77a3c24e84096230c2bbbd3e4e38b35369e536a7777d506a6b",
+  "changelog": "* Fixed a crash during PIN verification when upgrading from firmware versions older than 2.9.0.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.12.3.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.12.3.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.12.3.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.12.3.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.12.3.bin"
+  }
+}

@@ -1,6 +1,21 @@
 [
   {
     "required": false,
+    "version": [2, 12, 3],
+    "min_bootloader_version": [2, 1, 6],
+    "min_firmware_version": [2, 7, 2],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "0d3dee246dadb2ee6ee449272f4936a4ff6bbdff",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t3t1/trezor-t3t1-2.12.3.bin",
+    "fingerprint": "93fde6631771ba77a3c24e84096230c2bbbd3e4e38b35369e536a7777d506a6b",
+    "changelog": "* Fixed a crash during PIN verification when upgrading from firmware versions older than 2.9.0.",
+    "url_bitcoinonly": "data/firmware/t3t1/trezor-t3t1-2.12.3-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "f8a22e424c03ce4c49c885559ec13f19da74a2489bdd954ecb010a4fc0905689",
+    "changelog_bitcoinonly": "* Fixed a crash during PIN verification when upgrading from firmware versions older than 2.9.0."
+  },
+  {
+    "required": false,
     "version": [2, 12, 2],
     "min_bootloader_version": [2, 1, 6],
     "min_firmware_version": [2, 7, 2],
