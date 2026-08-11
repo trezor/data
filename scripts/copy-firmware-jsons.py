@@ -14,10 +14,10 @@ Usage:
 from __future__ import annotations
 
 import json
-import typing as t
-import subprocess
-import shutil
 import re
+import shutil
+import subprocess
+import typing as t
 from pathlib import Path
 
 import click
@@ -91,6 +91,15 @@ def update_releases_json(
     assert universal_json.get("translations") == btconly_json.get("translations")
     if (translations := universal_json.get("translations")) is not None:
         new_item["translations"] = list(translations)  # keep only the keys
+
+    # metadata of each translation (e.g. {"status": "production"} or {"status": "beta"})
+    metadata = universal_json.get("translations_metadata")
+    assert metadata == btconly_json.get("translations_metadata")
+    if metadata is not None:
+        # translations_metadata must list every language present in translations
+        assert translations is not None
+        assert set(metadata.keys()) == set(translations.keys())
+        new_item["translations_metadata"] = metadata  # keep the map as-is
 
     for suffix, items in [("", universal_json), ("_bitcoinonly", btconly_json)]:
         for k in non_shared_keys:

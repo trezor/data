@@ -22,6 +22,8 @@ File `authenticity.json` is the source of truth for public keys used in the devi
 
 Directory `translations` holds translation blobs. These are not available for T1B1 and older firmware versions. Trezor Suite downloads translations from [https://data.trezor.io/](https://data.trezor.io/). During the initial firmware installation, Suite downloads and installs a firmware translation corresponding to the Suite language, if available. The file is silently updated during subsequent firmware installations or any call to Trezor Connect, if needed. If a translation download fails, no error is shown and the outdated version is kept, which may result in some strings not being translated.
 
+Per-release JSONs may also contain a `translations_metadata` map alongside `translations`, holding metadata for each language, e.g. `"translations_metadata": {"cs-CZ": {"status": "production"}, "de-DE": {"status": "beta"}}`. The keys of `translations_metadata` always match the keys of `translations`. Trezor Suite displays a production status label for it (e.g. "Beta") based on this field. The legacy `releases.json` keeps `translations_metadata` as the same map, while `translations` is reduced to a list of all language tags.
+
 ## Models mapping
 
 | Model | Name                |
