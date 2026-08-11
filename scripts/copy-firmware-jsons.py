@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Copies firmware binaries, translations and JSONs from a local copy of `trezor-suite-firmware-release`.
 
@@ -123,7 +124,7 @@ def copy_file(src: Path, dst: Path) -> None:
     shutil.copy(src=src, dst=dst)
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.argument("version")
 @click.option(
     "-r", "--release-repo", type=Path, default="../trezor-suite-firmware-release/"
