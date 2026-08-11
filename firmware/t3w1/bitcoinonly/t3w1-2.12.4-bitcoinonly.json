@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "version": [2, 12, 4],
+  "min_bootloader_version": [2, 1, 13],
+  "min_firmware_version": [2, 9, 3],
+  "bootloader_version": [2, 1, 17],
+  "firmware_revision": "30be4e8c9488eeab68f994af23b3d9c9b7334266",
+  "url": "firmware/t3w1/trezor-t3w1-2.12.4-bitcoinonly.bin",
+  "fingerprint": "43e68f8bd25c998e9262e997477e4eb9480648a5f10e8a44696ed6cc692a10e7",
+  "changelog": "* Switch to optimized THP implementation.\n* Fix host disconnection handling.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3w1/translation-T3W1-cs-CZ-2.12.4.bin",
+    "de-DE": "firmware/translations/t3w1/translation-T3W1-de-DE-2.12.4.bin",
+    "es-ES": "firmware/translations/t3w1/translation-T3W1-es-ES-2.12.4.bin",
+    "fr-FR": "firmware/translations/t3w1/translation-T3W1-fr-FR-2.12.4.bin",
+    "pt-BR": "firmware/translations/t3w1/translation-T3W1-pt-BR-2.12.4.bin"
+  }
+}
