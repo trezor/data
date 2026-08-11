@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "version": [2, 12, 4],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "30be4e8c9488eeab68f994af23b3d9c9b7334266",
+  "url": "firmware/t3t1/trezor-t3t1-2.12.4-bitcoinonly.bin",
+  "fingerprint": "ba1b7a5adc9e42e2c39a6875b3736ce24ac4ef98cbe41a05cda053476cb4f02c",
+  "changelog": "",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.12.4.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.12.4.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.12.4.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.12.4.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.12.4.bin"
+  }
+}

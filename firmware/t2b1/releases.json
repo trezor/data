@@ -1,6 +1,21 @@
 [
   {
     "required": false,
+    "version": [2, 12, 4],
+    "min_bootloader_version": [2, 1, 1],
+    "min_firmware_version": [2, 6, 1],
+    "bootloader_version": [2, 1, 16],
+    "firmware_revision": "30be4e8c9488eeab68f994af23b3d9c9b7334266",
+    "translations": ["cs-CZ", "de-DE", "es-ES", "fr-FR", "pt-BR"],
+    "url": "data/firmware/t2b1/trezor-t2b1-2.12.4.bin",
+    "fingerprint": "72dbbe33fb12d61315a5739b8fff686abc4746f11574fbe51d8906de40485334",
+    "changelog": "* Ethereum: Add experimental support for EIP-7702 authorization/revocation.\n* Ethereum: Clear-sign WETH wrap (deposit) and unwrap (withdraw) transactions.\n* Solana: add support for off-chain message signing (OCMS) v1.\n* Stablecoin yielding: Add Trezor Steakhouse WETH Prime vault.\n* Stellar: Enable signing Soroban smart contract transactions (containing StellarInvokeHostFunctionOp).\n* Stellar: Support signing Soroban authorization entries.\n* Solana: remove support for off-chain message signing (OCMS) v0.\n* Tron: add `chunkify` support to SignTx address confirmation.",
+    "url_bitcoinonly": "data/firmware/t2b1/trezor-t2b1-2.12.4-bitcoinonly.bin",
+    "fingerprint_bitcoinonly": "9fd5b6b1bd7493f379cfef6d7a08cf6764777f89817b50118cf613ff63b51a42",
+    "changelog_bitcoinonly": ""
+  },
+  {
+    "required": false,
     "version": [2, 12, 2],
     "min_bootloader_version": [2, 1, 1],
     "min_firmware_version": [2, 6, 1],
