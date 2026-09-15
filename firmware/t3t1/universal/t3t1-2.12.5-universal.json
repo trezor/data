@@ -1,0 +1,25 @@
+{
+  "required": false,
+  "version": [2, 12, 5],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "66ac7295aaa0aa9fb427a0cc035b34dd61b6d472",
+  "url": "firmware/t3t1/trezor-t3t1-2.12.5.bin",
+  "fingerprint": "7fff55b90d019e8e44c5c65ead8d9be4b01efe0d2be4cd73f2e9ab7bcb41692d",
+  "changelog": "* Tron: Support for Resource delegation.\n* Stellar: Show SEP-41 `transfer` and `approve` invocations of Stellar Asset Contracts and trusted token contracts as token operations.  [#7310, #7652]\n* Show \"not registered\" message instead of a registration prompt when Firefox sends its dummy U2F register request.\n* Ethereum: Fix SLIP-24 payment request for ERC-20 tokens.\n* FIDO: Don't fail interaction if keepalive message is blocked.\n* Monero: Fix change address validation being skipped on sweep transactions.\n* Ethereum: Add derivation path to public key layout.\n* Show the group threshold and individual groups thresholds in Advanced Shamir backup.\n* Ethereum: Native token transfer blocked for SLIP-24 swaps.\n* Ethereum: Native token transfer blocked for staking operations.\n* Solana: Ask user for confirmation of stake lockup settings, which were previously hidden.\n* Solana: Fixed token transfer showing the lookup-table address for ALT-referenced mint and owner accounts.\n* Stellar: Allow viewing network in signing flows.\n* Stellar: Display signer weight when confirming Set options operation.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.12.5.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.12.5.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.12.5.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.12.5.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.12.5.bin"
+  },
+  "translations_metadata": {
+    "cs-CZ": { "status": "production" },
+    "de-DE": { "status": "beta" },
+    "es-ES": { "status": "beta" },
+    "fr-FR": { "status": "beta" },
+    "pt-BR": { "status": "beta" }
+  }
+}
