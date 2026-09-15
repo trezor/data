@@ -1,0 +1,25 @@
+{
+  "required": false,
+  "version": [2, 12, 5],
+  "min_bootloader_version": [2, 1, 7],
+  "min_firmware_version": [2, 8, 3],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "66ac7295aaa0aa9fb427a0cc035b34dd61b6d472",
+  "url": "firmware/t3b1/trezor-t3b1-2.12.5-bitcoinonly.bin",
+  "fingerprint": "7eb368b6f980167c2740c12e2b3354fd1b97ff9f9d1a402b10cf02abc018c235",
+  "changelog": "* Show the group threshold and individual groups thresholds in Advanced Shamir backup.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3b1/translation-T3B1-cs-CZ-2.12.5.bin",
+    "de-DE": "firmware/translations/t3b1/translation-T3B1-de-DE-2.12.5.bin",
+    "es-ES": "firmware/translations/t3b1/translation-T3B1-es-ES-2.12.5.bin",
+    "fr-FR": "firmware/translations/t3b1/translation-T3B1-fr-FR-2.12.5.bin",
+    "pt-BR": "firmware/translations/t3b1/translation-T3B1-pt-BR-2.12.5.bin"
+  },
+  "translations_metadata": {
+    "cs-CZ": { "status": "production" },
+    "de-DE": { "status": "beta" },
+    "es-ES": { "status": "beta" },
+    "fr-FR": { "status": "beta" },
+    "pt-BR": { "status": "beta" }
+  }
+}
