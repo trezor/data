@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "version": [1, 14, 2],
+  "min_bootloader_version": [1, 12, 0],
+  "min_firmware_version": [1, 12, 0],
+  "bootloader_version": [1, 12, 1],
+  "bootloader_hash": "94f1c90db28db1f8ce5dca966976343658f5dadee83834987c8b049c49d1edd0",
+  "firmware_revision": "037e506db454691bda188df2803df2fc26c75f36",
+  "url": "firmware/t1b1/trezor-t1b1-1.14.2.bin",
+  "fingerprint": "69b64ead63d9fd612a2077ad0fdd995f12dd6a8837ebe0ab4cbd7f43432e12f9",
+  "changelog": "* Restrict which message types may use an authorization granted by DoPreauthorized or a path unlocked by UnlockPath.\n* Show \"not registered\" message instead of a registration prompt when Firefox sends its dummy U2F register request.\n* Abort coinjoin signing if the coin name in SignTx does not match the coinjoin authorization.\n* Fix Ethereum address formatting.\n* Validate recovery input method.\n* Ethereum: Native token transfer blocked for staking operations.\n* Show maximum coordinator fee rate in coinjoin authorization dialog.\n* Stellar: Fix the asset used as the price unit when confirming DEX offers.",
+  "translations": {}
+}
