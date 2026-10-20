@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "version": [1, 14, 2],
+  "min_bootloader_version": [1, 12, 0],
+  "min_firmware_version": [1, 12, 0],
+  "bootloader_version": [1, 12, 1],
+  "bootloader_hash": "94f1c90db28db1f8ce5dca966976343658f5dadee83834987c8b049c49d1edd0",
+  "firmware_revision": "037e506db454691bda188df2803df2fc26c75f36",
+  "url": "firmware/t1b1/trezor-t1b1-1.14.2-bitcoinonly.bin",
+  "fingerprint": "1a469995975e36a2abd278dfdba8de4c6eea938b64bdc79901f446da9435f5d2",
+  "changelog": "* Restrict which message types may use an authorization granted by DoPreauthorized or a path unlocked by UnlockPath.\n* Abort coinjoin signing if the coin name in SignTx does not match the coinjoin authorization.\n* Validate recovery input method.\n* Show maximum coordinator fee rate in coinjoin authorization dialog.",
+  "translations": {}
+}
