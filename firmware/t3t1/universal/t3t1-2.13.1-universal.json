@@ -1,0 +1,27 @@
+{
+  "required": false,
+  "version": [2, 13, 1],
+  "min_bootloader_version": [2, 1, 6],
+  "min_firmware_version": [2, 7, 2],
+  "bootloader_version": [2, 1, 16],
+  "firmware_revision": "4289e23b317e98ab6a5e8237723e0cd57f44934c",
+  "url": "firmware/t3t1/trezor-t3t1-2.13.1.bin",
+  "fingerprint": "0d242f4ef04fef0415757d06049bffccdddf57709c96b8eb0967af349cf2f71c",
+  "changelog": "* Solana: Allow skipping the review of transactions with unknown instructions to avoid host timeouts.\n* Solana: Add support for v1 transactions.\n* Ethereum: Show names of well known addresses.\n* Remove Omni support.\n* Cardano: Use CIP-0129 to encode DRep credentials.\n* Cardano: Support change outputs in SLIP-24 payment requests.\n* Fix characters above U+FFFF being displayed as unrelated characters.\n* Solana: Fixed priority fee calculation for transactions without an explicit compute unit limit.\n* Solana: Reject instructions whose sysvar account slot holds a different account or a lookup-table reference.\n* Warn on xpub export for paths shorter than 2 levels and for SLIP-15, SLIP-16 and BIP-85 paths.",
+  "translations": {
+    "cs-CZ": "firmware/translations/t3t1/translation-T3T1-cs-CZ-2.13.1.bin",
+    "de-DE": "firmware/translations/t3t1/translation-T3T1-de-DE-2.13.1.bin",
+    "es-ES": "firmware/translations/t3t1/translation-T3T1-es-ES-2.13.1.bin",
+    "fr-FR": "firmware/translations/t3t1/translation-T3T1-fr-FR-2.13.1.bin",
+    "id-ID": "firmware/translations/t3t1/translation-T3T1-id-ID-2.13.1.bin",
+    "pt-BR": "firmware/translations/t3t1/translation-T3T1-pt-BR-2.13.1.bin"
+  },
+  "translations_metadata": {
+    "cs-CZ": { "status": "production" },
+    "de-DE": { "status": "beta" },
+    "es-ES": { "status": "beta" },
+    "fr-FR": { "status": "beta" },
+    "id-ID": { "status": "beta" },
+    "pt-BR": { "status": "beta" }
+  }
+}
