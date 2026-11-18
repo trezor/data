@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "version": [1, 14, 3],
+  "min_bootloader_version": [1, 12, 0],
+  "min_firmware_version": [1, 12, 0],
+  "bootloader_version": [1, 12, 1],
+  "bootloader_hash": "94f1c90db28db1f8ce5dca966976343658f5dadee83834987c8b049c49d1edd0",
+  "firmware_revision": "4289e23b317e98ab6a5e8237723e0cd57f44934c",
+  "url": "firmware/t1b1/trezor-t1b1-1.14.3-bitcoinonly.bin",
+  "fingerprint": "20ae0af6845fe81099ecf3e59a33740b0fca2e9b0d0a5c899e2459317c29e39e",
+  "changelog": "* Treat the removed Unchained Capital multisig path as an unknown path.\n* Warn on xpub export for paths shorter than 2 levels and for SLIP-15, SLIP-16 and BIP-85 paths.",
+  "translations": {}
+}
